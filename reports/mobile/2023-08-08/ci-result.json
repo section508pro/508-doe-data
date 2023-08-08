@@ -1,0 +1,802 @@
+[
+  {
+    "path": "/",
+    "score": 0.92
+  },
+  {
+    "path": "/about-us",
+    "score": 0.96
+  },
+  {
+    "path": "/about-us/contact-us/headquarters-program-staff-office-mailing-addresses",
+    "score": 0.96
+  },
+  {
+    "path": "/about-us/web-policies/privacy",
+    "score": 0.95
+  },
+  {
+    "path": "/advanced-research-projects-agency-energy-arpa-e",
+    "score": 0.94
+  },
+  {
+    "path": "/ai",
+    "score": 0.94
+  },
+  {
+    "path": "/ai/airmp",
+    "score": 0.95
+  },
+  {
+    "path": "/ai/articles/accelerating-adoption-and-development-privacy-enhancing-technologies-pets",
+    "score": 0.96
+  },
+  {
+    "path": "/ai/articles/doe-announces-115k-grant-use-ai-improve-sewage-underserved-communities",
+    "score": 0.95
+  },
+  {
+    "path": "/ai/articles/fdl-2022-live-showcase-event-august-12-2022",
+    "score": 0.95
+  },
+  {
+    "path": "/ai/articles/us-department-energy-announces-release-artificial-intelligence-risk-management-playbook",
+    "score": 0.95
+  },
+  {
+    "path": "/ai/artificial-intelligence-technology-office",
+    "score": 0.94
+  },
+  {
+    "path": "/ai/listings/ai-news",
+    "score": 0.95
+  },
+  {
+    "path": "/ai/listings/aito-blog-0",
+    "score": 0.91
+  },
+  {
+    "path": "/arctic",
+    "score": 0.94
+  },
+  {
+    "path": "/arctic/arctic-energy-resources",
+    "score": 0.95
+  },
+  {
+    "path": "/arctic/articles/what-energizing-rural-communities-means-galena-alaska",
+    "score": 0.96
+  },
+  {
+    "path": "/articles/5-tips-energy-saving-renters",
+    "score": 0.94
+  },
+  {
+    "path": "/articles/6-things-you-should-know-about-energy-economy-right-now",
+    "score": 0.96
+  },
+  {
+    "path": "/articles/biden-harris-administration-opens-applications-states-and-territories-implement-85-billion",
+    "score": 0.94
+  },
+  {
+    "path": "/articles/doe-announces-46-million-boost-energy-efficiency-and-slash-emissions-residential-and",
+    "score": 0.94
+  },
+  {
+    "path": "/articles/energy-facts-impact-investing-america-agenda-missouri",
+    "score": 0.96
+  },
+  {
+    "path": "/artificial-intelligence-and-technology-office",
+    "score": 0.94
+  },
+  {
+    "path": "/budget-performance",
+    "score": 0.93
+  },
+  {
+    "path": "/careers",
+    "score": 0.92
+  },
+  {
+    "path": "/careers/articles/hq-nteu",
+    "score": 0.92
+  },
+  {
+    "path": "/careers/articles/meet-clean-energy-corps",
+    "score": 0.94
+  },
+  {
+    "path": "/careers/benefits-working-energy",
+    "score": 0.94
+  },
+  {
+    "path": "/careers/individuals-disabilities",
+    "score": 0.94
+  },
+  {
+    "path": "/careers/jobs",
+    "score": 0.92
+  },
+  {
+    "path": "/careers/jobs-doe",
+    "score": 0.92
+  },
+  {
+    "path": "/careers/listings/jobs-news",
+    "score": 0.92
+  },
+  {
+    "path": "/careers/redirect-usajobs-search-page",
+    "score": 0.94
+  },
+  {
+    "path": "/ceser/cybersecurity",
+    "score": 0.94
+  },
+  {
+    "path": "/ceser/office-cybersecurity-energy-security-and-emergency-response",
+    "score": 0.92
+  },
+  {
+    "path": "/cfo/articles/fy-2017-doe-annual-performance-report-fy-2019-annual-performance-plan",
+    "score": 0.92
+  },
+  {
+    "path": "/cfo/articles/fy-2018-doe-annual-performance-report-fy-2020-annual-performance-plan",
+    "score": 0.93
+  },
+  {
+    "path": "/cfo/articles/fy-2019-budget-justification",
+    "score": 0.92
+  },
+  {
+    "path": "/cfo/articles/fy-2020-budget-justification",
+    "score": 0.92
+  },
+  {
+    "path": "/cfo/articles/fy-2022-budget-justification",
+    "score": 0.92
+  },
+  {
+    "path": "/cfo/downloads/fy-2021-budget-justification",
+    "score": 0.92
+  },
+  {
+    "path": "/cfo/listings/annual-performance-reports",
+    "score": 0.9
+  },
+  {
+    "path": "/cfo/listings/budget-justification-supporting-documents",
+    "score": 0.92
+  },
+  {
+    "path": "/cio",
+    "score": 0.92
+  },
+  {
+    "path": "/cio/about-ocio",
+    "score": 0.93
+  },
+  {
+    "path": "/cio/about-our-services",
+    "score": 0.93
+  },
+  {
+    "path": "/cio/accessibility-standard-statement",
+    "score": 0.92
+  },
+  {
+    "path": "/cio/department-energy-information-quality-guidelines",
+    "score": 0.93
+  },
+  {
+    "path": "/cio/person/ann-dunkin",
+    "score": 0.9
+  },
+  {
+    "path": "/cio/person/brian-epley",
+    "score": 0.9
+  },
+  {
+    "path": "/cio/privacy-program",
+    "score": 0.87
+  },
+  {
+    "path": "/clean-energy",
+    "score": 0.93
+  },
+  {
+    "path": "/clean-energy-infrastructure/community-benefits-plan-frequently-asked-questions-faqs",
+    "score": 0.9
+  },
+  {
+    "path": "/CleanEnergyCorps",
+    "score": 0.92
+  },
+  {
+    "path": "/climate-change",
+    "score": 0.96
+  },
+  {
+    "path": "/combating-climate-crisis",
+    "score": 0.94
+  },
+  {
+    "path": "/communitysolar/community-power-accelerator-prize-round-1",
+    "score": 0.95
+  },
+  {
+    "path": "/contact-us",
+    "score": 0.94
+  },
+  {
+    "path": "/contact-us/mailing-addresses-and-information-numbers-operations-field-and-site-offices",
+    "score": 0.95
+  },
+  {
+    "path": "/contributors/jennifer-m-granholm",
+    "score": 0.89
+  },
+  {
+    "path": "/covid/articles/covid-19-workplace-safety-framework",
+    "score": 0.94
+  },
+  {
+    "path": "/covid/coronavirus-doe-response",
+    "score": 0.89
+  },
+  {
+    "path": "/covid/department-energy-doe-covid-19-hotline",
+    "score": 0.95
+  },
+  {
+    "path": "/covid/memoriam",
+    "score": 0.93
+  },
+  {
+    "path": "/creating-clean-energy-union-jobs",
+    "score": 0.93
+  },
+  {
+    "path": "/cybersecurity",
+    "score": 0.95
+  },
+  {
+    "path": "/department-energy-facilities",
+    "score": 0.91
+  },
+  {
+    "path": "/direct-current-episode-2-clean-energy-geek-squad",
+    "score": 0.9
+  },
+  {
+    "path": "/diversity",
+    "score": 0.92
+  },
+  {
+    "path": "/diversity/about-us",
+    "score": 0.91
+  },
+  {
+    "path": "/diversity/age-discrimination-act-1975",
+    "score": 0.93
+  },
+  {
+    "path": "/diversity/articles/doe-financial-assistance-poster",
+    "score": 0.93
+  },
+  {
+    "path": "/diversity/equal-employment-opportunity",
+    "score": 0.93
+  },
+  {
+    "path": "/diversity/no-fear-act-data",
+    "score": 0.93
+  },
+  {
+    "path": "/diversity/notice-equal-employment-opportunity-eeo-findings-discrimination-harassment-andor",
+    "score": 0.93
+  },
+  {
+    "path": "/doe-stem",
+    "score": 0.9
+  },
+  {
+    "path": "/doe-stem/about-doe-stem",
+    "score": 0.93
+  },
+  {
+    "path": "/doe-stem/articles/argonne-intern-streamlines-beamline",
+    "score": 0.93
+  },
+  {
+    "path": "/doe-stem/articles/clean-energy-corps",
+    "score": 0.92
+  },
+  {
+    "path": "/doe-stem/articles/fellow-reflections-k-grace-johnson",
+    "score": 0.93
+  },
+  {
+    "path": "/doe-stem/articles/meet-gem-fellow-javier-corona",
+    "score": 0.93
+  },
+  {
+    "path": "/doe-stem/articles/meet-tiffany-liu-intern-office-management",
+    "score": 0.94
+  },
+  {
+    "path": "/doe-stem/contact-doe-stem",
+    "score": 0.9
+  },
+  {
+    "path": "/doe-stem/doe-program-office-stem-websites",
+    "score": 0.92
+  },
+  {
+    "path": "/doe-stem/doe-stem",
+    "score": 0.9
+  },
+  {
+    "path": "/doe-stem/doe-stem-announcements",
+    "score": 0.91
+  },
+  {
+    "path": "/doe-stem/events/2023-ecological-society-america-esa-annual-meeting-0",
+    "score": 0.94
+  },
+  {
+    "path": "/doe-stem/events/plant-biology-2023-official-meeting",
+    "score": 0.94
+  },
+  {
+    "path": "/doe-stem/events/plant-biology-2023-official-meeting-0",
+    "score": 0.94
+  },
+  {
+    "path": "/doe-stem/listings/participant-highlights",
+    "score": 0.9
+  },
+  {
+    "path": "/eere",
+    "score": 0.88
+  },
+  {
+    "path": "/eere/about-office-energy-efficiency-and-renewable-energy",
+    "score": 0.91
+  },
+  {
+    "path": "/eere/ammto/advanced-materials-manufacturing-technologies-office",
+    "score": 0.91
+  },
+  {
+    "path": "/eere/articles/interagency-collaboration-releases-request-information-establishment-green-shipping",
+    "score": 0.91
+  },
+  {
+    "path": "/eere/bioenergy/bioenergy",
+    "score": 0.89
+  },
+  {
+    "path": "/eere/bioenergy/bioenergy-technologies-office",
+    "score": 0.91
+  },
+  {
+    "path": "/eere/budget-office",
+    "score": 0.93
+  },
+  {
+    "path": "/eere/buildings/appliance-and-equipment-standards-program",
+    "score": 0.93
+  },
+  {
+    "path": "/eere/buildings/building-technologies-office",
+    "score": 0.91
+  },
+  {
+    "path": "/eere/energy-efficiency-buildings-and-industry",
+    "score": 0.89
+  },
+  {
+    "path": "/eere/fuelcells/2010-2025-scenario-analysis-hydrogen-fuel-cell-vehicles-and-infrastructure",
+    "score": 0.93
+  },
+  {
+    "path": "/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office",
+    "score": 0.91
+  },
+  {
+    "path": "/eere/funding/eere-funding-opportunities",
+    "score": 0.93
+  },
+  {
+    "path": "/eere/geothermal/geothermal",
+    "score": 0.91
+  },
+  {
+    "path": "/eere/geothermal/geothermal-technologies-office",
+    "score": 0.91
+  },
+  {
+    "path": "/eere/iedo/industrial-efficiency-decarbonization-office",
+    "score": 0.91
+  },
+  {
+    "path": "/eere/office-energy-efficiency-renewable-energy",
+    "score": 0.88
+  },
+  {
+    "path": "/eere/renewable-energy",
+    "score": 0.89
+  },
+  {
+    "path": "/eere/water/advantages-marine-energy",
+    "score": 0.9
+  },
+  {
+    "path": "/eere/water/how-hydropower-works",
+    "score": 0.91
+  },
+  {
+    "path": "/eere/water/hydropower-basics",
+    "score": 0.89
+  },
+  {
+    "path": "/eere/water/marine-energy-basics",
+    "score": 0.91
+  },
+  {
+    "path": "/eere/water/water",
+    "score": 0.91
+  },
+  {
+    "path": "/eere/wind/articles/top-10-things-you-didnt-know-about-distributed-wind-power",
+    "score": 0.93
+  },
+  {
+    "path": "/eere/wind/articles/top-10-things-you-didnt-know-about-offshore-wind-energy",
+    "score": 0.93
+  },
+  {
+    "path": "/eere/wind/articles/top-10-things-you-didnt-know-about-wind-power",
+    "score": 0.93
+  },
+  {
+    "path": "/eere/wind/how-do-wind-turbines-work",
+    "score": 0.89
+  },
+  {
+    "path": "/eere/wind/wind-energy-basics",
+    "score": 0.92
+  },
+  {
+    "path": "/eere/wind/wind-energy-technologies-office",
+    "score": 0.91
+  },
+  {
+    "path": "/electric-power",
+    "score": 0.94
+  },
+  {
+    "path": "/em/budget-performance",
+    "score": 0.88
+  },
+  {
+    "path": "/emergency-response",
+    "score": 0.94
+  },
+  {
+    "path": "/energy-economy",
+    "score": 0.95
+  },
+  {
+    "path": "/energy-sources",
+    "score": 0.94
+  },
+  {
+    "path": "/energysaver",
+    "score": 0.91
+  },
+  {
+    "path": "/energysaver/air-sealing-your-home",
+    "score": 0.89
+  },
+  {
+    "path": "/energysaver/articles/how-stop-energy-vampires-attacking-your-home",
+    "score": 0.94
+  },
+  {
+    "path": "/energysaver/design",
+    "score": 0.92
+  },
+  {
+    "path": "/energysaver/energy-saver-guide-tips-saving-money-and-energy-home",
+    "score": 0.93
+  },
+  {
+    "path": "/energysaver/heating-and-cooling",
+    "score": 0.93
+  },
+  {
+    "path": "/energysaver/insulation",
+    "score": 0.89
+  },
+  {
+    "path": "/environmental-cleanup",
+    "score": 0.96
+  },
+  {
+    "path": "/fecm/our-budget",
+    "score": 0.93
+  },
+  {
+    "path": "/fossil",
+    "score": 0.94
+  },
+  {
+    "path": "/funding-financing",
+    "score": 0.96
+  },
+  {
+    "path": "/ig/office-inspector-general",
+    "score": 0.92
+  },
+  {
+    "path": "/infrastructure/about-community-benefits-plans",
+    "score": 0.9
+  },
+  {
+    "path": "/infrastructure/undersecretary-infrastructure/person/david-crane",
+    "score": 0.9
+  },
+  {
+    "path": "/investments-american-made-energy",
+    "score": 0.92
+  },
+  {
+    "path": "/jobs/jobs",
+    "score": 0.92
+  },
+  {
+    "path": "/leadership/organization-chart",
+    "score": 0.92
+  },
+  {
+    "path": "/listings/blog-archive",
+    "score": 0.93
+  },
+  {
+    "path": "/listings/malarkey-corner",
+    "score": 0.94
+  },
+  {
+    "path": "/listings/news-blog",
+    "score": 0.93
+  },
+  {
+    "path": "/lm/doe-history",
+    "score": 0.92
+  },
+  {
+    "path": "/lpo/loan-programs-office",
+    "score": 0.92
+  },
+  {
+    "path": "/management/freedom-information-act",
+    "score": 0.92
+  },
+  {
+    "path": "/manufacturing",
+    "score": 0.95
+  },
+  {
+    "path": "/media/286852",
+    "score": 0.91
+  },
+  {
+    "path": "/national-laboratories",
+    "score": 0.94
+  },
+  {
+    "path": "/national-security-safety",
+    "score": 0.96
+  },
+  {
+    "path": "/ne/our-budget",
+    "score": 0.92
+  },
+  {
+    "path": "/newsroom",
+    "score": 0.93
+  },
+  {
+    "path": "/nnsa/national-nuclear-security-administration",
+    "score": 0.92
+  },
+  {
+    "path": "/nnsa/person/jill-hruby",
+    "score": 0.93
+  },
+  {
+    "path": "/node/2797",
+    "score": 0.95
+  },
+  {
+    "path": "/node/29131",
+    "score": 0.92
+  },
+  {
+    "path": "/node/29137",
+    "score": 0.91
+  },
+  {
+    "path": "/node/29149",
+    "score": 0.95
+  },
+  {
+    "path": "/node/946836",
+    "score": 0.93
+  },
+  {
+    "path": "/nuclear",
+    "score": 0.94
+  },
+  {
+    "path": "/oced",
+    "score": 0.92
+  },
+  {
+    "path": "/oced/articles/energizing-rural-communities-prize-awards-67-winners-67-million-advance-clean-energy",
+    "score": 0.93
+  },
+  {
+    "path": "/oced/events/energy-improvements-rural-or-remote-areas",
+    "score": 0.91
+  },
+  {
+    "path": "/oe/budget",
+    "score": 0.93
+  },
+  {
+    "path": "/oe/office-electricity",
+    "score": 0.9
+  },
+  {
+    "path": "/offices",
+    "score": 0.94
+  },
+  {
+    "path": "/open-government",
+    "score": 0.96
+  },
+  {
+    "path": "/organization-chart",
+    "score": 0.93
+  },
+  {
+    "path": "/osdbu/articles/3-highlights-2023-doe-small-business-forum-expo",
+    "score": 0.93
+  },
+  {
+    "path": "/osdbu/articles/doe-achieves-grade-small-business-administration",
+    "score": 0.93
+  },
+  {
+    "path": "/osdbu/office-small-and-disadvantaged-business-utilization",
+    "score": 0.9
+  },
+  {
+    "path": "/person/annemarie-horowitz",
+    "score": 0.94
+  },
+  {
+    "path": "/person/david-m-turk",
+    "score": 0.92
+  },
+  {
+    "path": "/person/dr-geri-richmond",
+    "score": 0.92
+  },
+  {
+    "path": "/person/jennifer-m-granholm",
+    "score": 0.88
+  },
+  {
+    "path": "/phonebook",
+    "score": 0.93
+  },
+  {
+    "path": "/policy/articles/making-our-homes-more-efficient-clean-energy-tax-credits-consumers",
+    "score": 0.93
+  },
+  {
+    "path": "/policy/energy-jobs",
+    "score": 0.93
+  },
+  {
+    "path": "/policy/us-energy-employment-jobs-report-useer",
+    "score": 0.93
+  },
+  {
+    "path": "/prices-trends",
+    "score": 0.93
+  },
+  {
+    "path": "/promoting-energy-justice",
+    "score": 0.94
+  },
+  {
+    "path": "/save",
+    "score": 0.9
+  },
+  {
+    "path": "/scep",
+    "score": 0.9
+  },
+  {
+    "path": "/scep/about-office-state-and-community-energy-programs",
+    "score": 0.93
+  },
+  {
+    "path": "/scep/articles/state-and-community-energy-programs-project-map-missouri",
+    "score": 0.93
+  },
+  {
+    "path": "/scep/office-state-and-community-energy-programs",
+    "score": 0.9
+  },
+  {
+    "path": "/scep/slsc/home-energy-rebate-programs",
+    "score": 0.89
+  },
+  {
+    "path": "/scep/tribal-home-energy-rebates",
+    "score": 0.93
+  },
+  {
+    "path": "/scep/wap/weatherization-assistance-program",
+    "score": 0.91
+  },
+  {
+    "path": "/science-innovation",
+    "score": 0.96
+  },
+  {
+    "path": "/science/articles/how-plant-biology-research-could-inform-covid-19-treatments",
+    "score": 0.93
+  },
+  {
+    "path": "/science/articles/trifecta-technique-teaches-us-about-plants-adaptability",
+    "score": 0.93
+  },
+  {
+    "path": "/solar",
+    "score": 0.94
+  },
+  {
+    "path": "/state-local-government",
+    "score": 0.96
+  },
+  {
+    "path": "/supercomputing-and-exascale",
+    "score": 0.92
+  },
+  {
+    "path": "/vehicles",
+    "score": 0.92
+  },
+  {
+    "path": "/web-policies",
+    "score": 0.95
+  },
+  {
+    "path": "/whistleblower-protection-and-nondisclosure-agreements",
+    "score": 0.95
+  },
+  {
+    "path": "/wind",
+    "score": 0.91
+  }
+]
