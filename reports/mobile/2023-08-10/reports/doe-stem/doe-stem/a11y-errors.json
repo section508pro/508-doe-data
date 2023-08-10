@@ -55,7 +55,7 @@
                     "height": 75
                   },
                   "snippet": "<div class=\"calendar--upcoming-day\">",
-                  "nodeLabel": "AUG\n05"
+                  "nodeLabel": "AUG\n06"
                 }
               }
             ]
@@ -76,7 +76,7 @@
               "height": 28
             },
             "snippet": "<span class=\"calendar--upcoming-date\">",
-            "nodeLabel": "05",
+            "nodeLabel": "06",
             "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.68 (foreground color: #ffffff, background color: #18a9e2, font size: 30.0pt (40px), font weight: bold). Expected contrast ratio of 3:1"
           },
           "subItems": {
@@ -97,7 +97,7 @@
                     "height": 75
                   },
                   "snippet": "<div class=\"calendar--upcoming-day\">",
-                  "nodeLabel": "AUG\n05"
+                  "nodeLabel": "AUG\n06"
                 }
               }
             ]
@@ -223,7 +223,7 @@
                     "height": 75
                   },
                   "snippet": "<div class=\"calendar--upcoming-day\">",
-                  "nodeLabel": "AUG\n06"
+                  "nodeLabel": "AUG\n10"
                 }
               }
             ]
@@ -244,7 +244,7 @@
               "height": 28
             },
             "snippet": "<span class=\"calendar--upcoming-date\">",
-            "nodeLabel": "06",
+            "nodeLabel": "10",
             "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.68 (foreground color: #ffffff, background color: #18a9e2, font size: 30.0pt (40px), font weight: bold). Expected contrast ratio of 3:1"
           },
           "subItems": {
@@ -265,7 +265,7 @@
                     "height": 75
                   },
                   "snippet": "<div class=\"calendar--upcoming-day\">",
-                  "nodeLabel": "AUG\n06"
+                  "nodeLabel": "AUG\n10"
                 }
               }
             ]
@@ -330,8 +330,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,H4",
             "selector": "div.footer-inner--left > div.footer-inner-block > div.accordion > h4.nav-title",
             "boundingRect": {
-              "top": 7199,
-              "bottom": 7213,
+              "top": 7202,
+              "bottom": 7216,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -457,8 +457,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7217,
-              "bottom": 7242,
+              "top": 7220,
+              "bottom": 7245,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -476,8 +476,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7242,
-              "bottom": 7267,
+              "top": 7245,
+              "bottom": 7270,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -495,8 +495,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7267,
-              "bottom": 7292,
+              "top": 7270,
+              "bottom": 7295,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -514,8 +514,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,3,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7292,
-              "bottom": 7317,
+              "top": 7295,
+              "bottom": 7320,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -533,8 +533,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7282,
-              "bottom": 7307,
+              "top": 7285,
+              "bottom": 7310,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -552,8 +552,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7307,
-              "bottom": 7332,
+              "top": 7310,
+              "bottom": 7335,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -571,8 +571,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7332,
-              "bottom": 7357,
+              "top": 7335,
+              "bottom": 7360,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -590,8 +590,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7357,
-              "bottom": 7382,
+              "top": 7360,
+              "bottom": 7385,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -609,8 +609,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7382,
-              "bottom": 7407,
+              "top": 7385,
+              "bottom": 7410,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -628,8 +628,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,5,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7407,
-              "bottom": 7432,
+              "top": 7410,
+              "bottom": 7435,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -647,8 +647,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,6,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7432,
-              "bottom": 7457,
+              "top": 7435,
+              "bottom": 7460,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -666,8 +666,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7347,
-              "bottom": 7372,
+              "top": 7350,
+              "bottom": 7375,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -685,8 +685,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7372,
-              "bottom": 7397,
+              "top": 7375,
+              "bottom": 7400,
               "left": 40,
               "right": 332,
               "width": 292,
@@ -704,8 +704,8 @@
             "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
             "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
             "boundingRect": {
-              "top": 7397,
-              "bottom": 7422,
+              "top": 7400,
+              "bottom": 7425,
               "left": 40,
               "right": 332,
               "width": 292,

@@ -1,8 +1,8 @@
 [
   {
     "path": "/",
-    "score": 0.92,
-    "performance": 0.99,
+    "score": 0.91,
+    "performance": 0.97,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.76
@@ -17,8 +17,8 @@
   },
   {
     "path": "/about-us/contact-us/headquarters-program-staff-office-mailing-addresses",
-    "score": 0.94,
-    "performance": 0.95,
+    "score": 0.9,
+    "performance": 0.78,
     "accessibility": 0.93,
     "best-practices": 1,
     "seo": 0.89
@@ -26,7 +26,7 @@
   {
     "path": "/about-us/web-policies/privacy",
     "score": 0.95,
-    "performance": 1,
+    "performance": 0.97,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.89
@@ -34,15 +34,15 @@
   {
     "path": "/advanced-research-projects-agency-energy-arpa-e",
     "score": 0.94,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.83
   },
   {
     "path": "/ai/airmp",
-    "score": 0.92,
-    "performance": 0.89,
+    "score": 0.91,
+    "performance": 0.87,
     "accessibility": 0.89,
     "best-practices": 1,
     "seo": 0.9
@@ -50,15 +50,15 @@
   {
     "path": "/ai/articles/accelerating-adoption-and-development-privacy-enhancing-technologies-pets",
     "score": 0.95,
-    "performance": 0.99,
+    "performance": 0.96,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.9
   },
   {
     "path": "/ai/articles/doe-announces-115k-grant-use-ai-improve-sewage-underserved-communities",
-    "score": 0.95,
-    "performance": 1,
+    "score": 0.9,
+    "performance": 0.78,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.9
@@ -66,15 +66,15 @@
   {
     "path": "/ai/articles/fdl-2022-live-showcase-event-august-12-2022",
     "score": 0.95,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.9
   },
   {
     "path": "/ai/articles/us-department-energy-announces-release-artificial-intelligence-risk-management-playbook",
-    "score": 0.95,
-    "performance": 1,
+    "score": 0.9,
+    "performance": 0.82,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.9
@@ -89,32 +89,32 @@
   },
   {
     "path": "/ai/listings/ai-news",
-    "score": 0.94,
-    "performance": 0.96,
+    "score": 0.93,
+    "performance": 0.92,
     "accessibility": 0.88,
     "best-practices": 1,
     "seo": 0.9
   },
   {
     "path": "/ai/listings/aito-blog-0",
-    "score": 0.92,
-    "performance": 0.97,
+    "score": 0.93,
+    "performance": 1,
     "accessibility": 0.88,
     "best-practices": 0.92,
     "seo": 0.91
   },
   {
     "path": "/arctic",
-    "score": 0.94,
-    "performance": 0.99,
+    "score": 0.88,
+    "performance": 0.76,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.84
   },
   {
     "path": "/arctic/arctic-energy-resources",
-    "score": 0.95,
-    "performance": 0.99,
+    "score": 0.94,
+    "performance": 0.96,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.89
@@ -129,8 +129,8 @@
   },
   {
     "path": "/articles/5-tips-energy-saving-renters",
-    "score": 0.95,
-    "performance": 0.99,
+    "score": 0.94,
+    "performance": 0.95,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.9
@@ -145,8 +145,8 @@
   },
   {
     "path": "/articles/biden-harris-administration-opens-applications-states-and-territories-implement-85-billion",
-    "score": 0.94,
-    "performance": 1,
+    "score": 0.93,
+    "performance": 0.97,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.82
@@ -161,24 +161,24 @@
   },
   {
     "path": "/articles/energy-facts-impact-investing-america-agenda-missouri",
-    "score": 0.96,
-    "performance": 1,
+    "score": 0.95,
+    "performance": 0.96,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.9
   },
   {
     "path": "/articles/energy-facts-impact-investing-america-agenda-new-jersey",
-    "score": 0.96,
-    "performance": 1,
+    "score": 0.95,
+    "performance": 0.99,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.9
   },
   {
     "path": "/articles/energy-facts-impact-investing-america-agenda-new-mexico",
-    "score": 0.95,
-    "performance": 0.99,
+    "score": 0.96,
+    "performance": 1,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.9
@@ -193,8 +193,8 @@
   },
   {
     "path": "/artificial-intelligence-and-technology-office",
-    "score": 0.94,
-    "performance": 1,
+    "score": 0.93,
+    "performance": 0.98,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.84
@@ -217,8 +217,8 @@
   },
   {
     "path": "/careers/articles/hq-nteu",
-    "score": 0.91,
-    "performance": 0.9,
+    "score": 0.92,
+    "performance": 0.93,
     "accessibility": 0.94,
     "best-practices": 0.92,
     "seo": 0.89
@@ -226,7 +226,7 @@
   {
     "path": "/careers/articles/meet-clean-energy-corps",
     "score": 0.94,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.94,
     "best-practices": 0.92,
     "seo": 0.89
@@ -241,16 +241,16 @@
   },
   {
     "path": "/careers/individuals-disabilities",
-    "score": 0.94,
-    "performance": 0.99,
+    "score": 0.93,
+    "performance": 0.97,
     "accessibility": 0.94,
     "best-practices": 0.92,
     "seo": 0.9
   },
   {
     "path": "/careers/jobs",
-    "score": 0.9,
-    "performance": 0.9,
+    "score": 0.91,
+    "performance": 0.96,
     "accessibility": 0.94,
     "best-practices": 0.92,
     "seo": 0.83
@@ -282,7 +282,7 @@
   {
     "path": "/careers/search",
     "score": 0.94,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.91,
     "best-practices": 1,
     "seo": 0.84
@@ -290,23 +290,23 @@
   {
     "path": "/careers/students-recent-graduates",
     "score": 0.94,
-    "performance": 0.99,
+    "performance": 1,
     "accessibility": 0.94,
     "best-practices": 0.92,
     "seo": 0.9
   },
   {
     "path": "/careers/veterans-military-spouses",
-    "score": 0.93,
-    "performance": 0.97,
+    "score": 0.94,
+    "performance": 0.98,
     "accessibility": 0.94,
     "best-practices": 0.92,
     "seo": 0.9
   },
   {
     "path": "/ceser/cybersecurity",
-    "score": 0.93,
-    "performance": 0.97,
+    "score": 0.94,
+    "performance": 1,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.9
@@ -314,15 +314,15 @@
   {
     "path": "/ceser/office-cybersecurity-energy-security-and-emergency-response",
     "score": 0.9,
-    "performance": 0.93,
+    "performance": 0.92,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.84
   },
   {
     "path": "/cfo",
-    "score": 0.91,
-    "performance": 0.96,
+    "score": 0.92,
+    "performance": 0.99,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.83
@@ -330,23 +330,23 @@
   {
     "path": "/cfo/articles/fy-2017-doe-annual-performance-report-fy-2019-annual-performance-plan",
     "score": 0.93,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/cfo/articles/fy-2018-doe-annual-performance-report-fy-2020-annual-performance-plan",
-    "score": 0.92,
-    "performance": 0.98,
+    "score": 0.87,
+    "performance": 0.78,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/cfo/articles/fy-2019-budget-justification",
-    "score": 0.93,
-    "performance": 1,
+    "score": 0.92,
+    "performance": 0.96,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
@@ -361,24 +361,24 @@
   },
   {
     "path": "/cfo/articles/fy-2022-budget-justification",
-    "score": 0.93,
-    "performance": 1,
+    "score": 0.91,
+    "performance": 0.91,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/cfo/articles/fy-2022-doe-agency-financial-report",
-    "score": 0.93,
-    "performance": 0.99,
+    "score": 0.91,
+    "performance": 0.94,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/cfo/articles/fy-2023-budget-justification",
-    "score": 0.93,
-    "performance": 1,
+    "score": 0.91,
+    "performance": 0.94,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.88
@@ -386,7 +386,7 @@
   {
     "path": "/cfo/articles/fy-2024-budget-justification",
     "score": 0.93,
-    "performance": 1,
+    "performance": 0.98,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.88
@@ -401,8 +401,8 @@
   },
   {
     "path": "/cfo/listings/annual-performance-reports",
-    "score": 0.9,
-    "performance": 0.97,
+    "score": 0.91,
+    "performance": 1,
     "accessibility": 0.9,
     "best-practices": 0.83,
     "seo": 0.9
@@ -418,7 +418,7 @@
   {
     "path": "/cio",
     "score": 0.9,
-    "performance": 0.93,
+    "performance": 0.9,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.84
@@ -433,16 +433,16 @@
   },
   {
     "path": "/cio/about-our-services",
-    "score": 0.93,
-    "performance": 1,
+    "score": 0.89,
+    "performance": 0.82,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.9
   },
   {
     "path": "/cio/about-policy-and-regulations",
-    "score": 0.93,
-    "performance": 1,
+    "score": 0.92,
+    "performance": 0.97,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
@@ -465,8 +465,8 @@
   },
   {
     "path": "/cio/contact-us",
-    "score": 0.92,
-    "performance": 0.97,
+    "score": 0.93,
+    "performance": 0.99,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
@@ -482,7 +482,7 @@
   {
     "path": "/cio/person/ann-dunkin",
     "score": 0.89,
-    "performance": 0.9,
+    "performance": 0.92,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.81
@@ -498,23 +498,23 @@
   {
     "path": "/clean-energy",
     "score": 0.93,
-    "performance": 0.96,
+    "performance": 0.95,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.84
   },
   {
     "path": "/clean-energy-infrastructure/community-benefits-plan-frequently-asked-questions-faqs",
-    "score": 0.83,
-    "performance": 0.72,
+    "score": 0.85,
+    "performance": 0.82,
     "accessibility": 0.94,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/CleanEnergyCorps",
-    "score": 0.86,
-    "performance": 0.75,
+    "score": 0.85,
+    "performance": 0.74,
     "accessibility": 0.94,
     "best-practices": 0.83,
     "seo": 0.9
@@ -537,16 +537,16 @@
   },
   {
     "path": "/communitiesLEAP/questa-new-mexico",
-    "score": 0.94,
-    "performance": 0.97,
+    "score": 0.91,
+    "performance": 0.84,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.89
   },
   {
     "path": "/communitysolar/community-power-accelerator-prize-round-1",
-    "score": 0.94,
-    "performance": 0.97,
+    "score": 0.9,
+    "performance": 0.8,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.9
@@ -569,16 +569,16 @@
   },
   {
     "path": "/contributors/jennifer-m-granholm",
-    "score": 0.83,
-    "performance": 0.69,
+    "score": 0.82,
+    "performance": 0.68,
     "accessibility": 0.93,
     "best-practices": 0.92,
     "seo": 0.76
   },
   {
     "path": "/covid/articles/covid-19-workplace-safety-framework",
-    "score": 0.93,
-    "performance": 0.93,
+    "score": 0.91,
+    "performance": 0.83,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.9
@@ -586,23 +586,23 @@
   {
     "path": "/covid/coronavirus-doe-response",
     "score": 0.89,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.83
   },
   {
     "path": "/covid/department-energy-doe-covid-19-hotline",
-    "score": 0.94,
-    "performance": 0.96,
+    "score": 0.95,
+    "performance": 1,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.9
   },
   {
     "path": "/covid/memoriam",
-    "score": 0.89,
-    "performance": 0.83,
+    "score": 0.87,
+    "performance": 0.74,
     "accessibility": 0.91,
     "best-practices": 0.92,
     "seo": 0.9
@@ -618,7 +618,7 @@
   {
     "path": "/cybersecurity",
     "score": 0.95,
-    "performance": 0.97,
+    "performance": 0.98,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.9
@@ -633,16 +633,16 @@
   },
   {
     "path": "/direct-current-episode-2-clean-energy-geek-squad",
-    "score": 0.84,
-    "performance": 0.75,
+    "score": 0.78,
+    "performance": 0.5,
     "accessibility": 0.86,
     "best-practices": 0.92,
     "seo": 0.83
   },
   {
     "path": "/diversity",
-    "score": 0.91,
-    "performance": 0.96,
+    "score": 0.89,
+    "performance": 0.9,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.83
@@ -650,7 +650,7 @@
   {
     "path": "/diversity/about-us",
     "score": 0.9,
-    "performance": 0.96,
+    "performance": 0.95,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.83
@@ -658,7 +658,7 @@
   {
     "path": "/diversity/age-discrimination-act-1975",
     "score": 0.93,
-    "performance": 0.99,
+    "performance": 1,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.9
@@ -666,7 +666,7 @@
   {
     "path": "/diversity/analysis",
     "score": 0.91,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.83
@@ -698,7 +698,7 @@
   {
     "path": "/doe-stem/doe-stem",
     "score": 0.85,
-    "performance": 0.82,
+    "performance": 0.81,
     "accessibility": 0.92,
     "best-practices": 0.83,
     "seo": 0.84
@@ -706,7 +706,7 @@
   {
     "path": "/eere",
     "score": 0.82,
-    "performance": 0.75,
+    "performance": 0.76,
     "accessibility": 0.93,
     "best-practices": 0.75,
     "seo": 0.84
@@ -714,7 +714,7 @@
   {
     "path": "/eere/about-office-energy-efficiency-and-renewable-energy",
     "score": 0.91,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.83
@@ -722,15 +722,15 @@
   {
     "path": "/eere/better-buildings-residential-network/events/wildfires-how-can-residential-energy-efficiency",
     "score": 0.93,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/eere/bioenergy/bioenergy",
-    "score": 0.83,
-    "performance": 0.75,
+    "score": 0.76,
+    "performance": 0.46,
     "accessibility": 0.9,
     "best-practices": 0.83,
     "seo": 0.83
@@ -738,15 +738,15 @@
   {
     "path": "/eere/budget-office",
     "score": 0.93,
-    "performance": 0.98,
+    "performance": 1,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.88
   },
   {
     "path": "/eere/buildings/articles/how-ensure-your-home-energy-audit-qualifies-150-tax-credit",
-    "score": 0.93,
-    "performance": 0.99,
+    "score": 0.92,
+    "performance": 0.96,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
@@ -754,7 +754,7 @@
   {
     "path": "/eere/energy-efficiency-buildings-and-industry",
     "score": 0.89,
-    "performance": 0.97,
+    "performance": 0.98,
     "accessibility": 0.9,
     "best-practices": 0.83,
     "seo": 0.84
@@ -762,31 +762,31 @@
   {
     "path": "/eere/events/better-buildings-webinar-customized-clean-energy-solutions-communities",
     "score": 0.93,
-    "performance": 1,
+    "performance": 0.97,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office",
-    "score": 0.91,
-    "performance": 0.98,
+    "score": 0.89,
+    "performance": 0.91,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.84
   },
   {
     "path": "/eere/geothermal/geothermal",
-    "score": 0.86,
-    "performance": 0.8,
+    "score": 0.9,
+    "performance": 0.98,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.82
   },
   {
     "path": "/eere/geothermal/geothermal-technologies-office",
-    "score": 0.91,
-    "performance": 0.99,
+    "score": 0.9,
+    "performance": 0.96,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.84
@@ -802,23 +802,23 @@
   {
     "path": "/eere/renewable-energy",
     "score": 0.87,
-    "performance": 0.89,
+    "performance": 0.91,
     "accessibility": 0.9,
     "best-practices": 0.83,
     "seo": 0.84
   },
   {
     "path": "/eere/solar/articles/buzzing-around-solar-pollinator-habitat-under-solar-arrays",
-    "score": 0.92,
-    "performance": 0.95,
+    "score": 0.93,
+    "performance": 0.99,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/eere/water/advantages-marine-energy",
-    "score": 0.88,
-    "performance": 0.87,
+    "score": 0.8,
+    "performance": 0.55,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.84
@@ -826,23 +826,23 @@
   {
     "path": "/eere/water/how-hydropower-works",
     "score": 0.9,
-    "performance": 0.95,
+    "performance": 0.96,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.84
   },
   {
     "path": "/eere/water/hydropower-basics",
-    "score": 0.84,
-    "performance": 0.78,
+    "score": 0.85,
+    "performance": 0.8,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.84
   },
   {
     "path": "/eere/water/marine-energy-basics",
-    "score": 0.91,
-    "performance": 0.99,
+    "score": 0.81,
+    "performance": 0.57,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.83
@@ -850,7 +850,7 @@
   {
     "path": "/eere/water/water",
     "score": 0.91,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.83
@@ -858,15 +858,15 @@
   {
     "path": "/eere/water/water-power-technologies-office",
     "score": 0.79,
-    "performance": 0.69,
+    "performance": 0.68,
     "accessibility": 0.89,
     "best-practices": 0.75,
     "seo": 0.83
   },
   {
     "path": "/eere/wind/articles/top-10-things-you-didnt-know-about-distributed-wind-power",
-    "score": 0.93,
-    "performance": 1,
+    "score": 0.91,
+    "performance": 0.92,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.9
@@ -874,7 +874,7 @@
   {
     "path": "/eere/wind/articles/top-10-things-you-didnt-know-about-offshore-wind-energy",
     "score": 0.93,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.9
@@ -882,7 +882,7 @@
   {
     "path": "/eere/wind/articles/top-10-things-you-didnt-know-about-wind-power",
     "score": 0.92,
-    "performance": 0.96,
+    "performance": 0.97,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.9
@@ -890,7 +890,7 @@
   {
     "path": "/eere/wind/how-do-wind-turbines-work",
     "score": 0.84,
-    "performance": 0.8,
+    "performance": 0.78,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.83
@@ -898,39 +898,39 @@
   {
     "path": "/eere/wind/wind-energy-basics",
     "score": 0.91,
-    "performance": 0.92,
+    "performance": 0.94,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/eere/wind/wind-energy-technologies-office",
-    "score": 0.9,
-    "performance": 0.93,
+    "score": 0.91,
+    "performance": 0.97,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.83
   },
   {
     "path": "/electric-power",
-    "score": 0.94,
-    "performance": 0.99,
+    "score": 0.91,
+    "performance": 0.88,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.83
   },
   {
     "path": "/em/budget-performance",
-    "score": 0.88,
-    "performance": 0.96,
+    "score": 0.87,
+    "performance": 0.92,
     "accessibility": 0.9,
     "best-practices": 0.83,
     "seo": 0.83
   },
   {
     "path": "/emergency-response",
-    "score": 0.93,
-    "performance": 0.96,
+    "score": 0.94,
+    "performance": 1,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.9
@@ -945,8 +945,8 @@
   },
   {
     "path": "/energy-sources",
-    "score": 0.93,
-    "performance": 0.98,
+    "score": 0.92,
+    "performance": 0.91,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.83
@@ -961,8 +961,8 @@
   },
   {
     "path": "/energysaver/articles/how-stop-energy-vampires-attacking-your-home",
-    "score": 0.94,
-    "performance": 0.99,
+    "score": 0.93,
+    "performance": 0.96,
     "accessibility": 0.94,
     "best-practices": 0.92,
     "seo": 0.9
@@ -985,8 +985,8 @@
   },
   {
     "path": "/energysaver/heating-and-cooling",
-    "score": 0.92,
-    "performance": 0.99,
+    "score": 0.93,
+    "performance": 1,
     "accessibility": 0.94,
     "best-practices": 0.92,
     "seo": 0.84
@@ -1001,24 +1001,24 @@
   },
   {
     "path": "/energysaver/save-electricity-and-fuel",
-    "score": 0.94,
-    "performance": 0.99,
+    "score": 0.92,
+    "performance": 0.92,
     "accessibility": 0.94,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/energysaver/ventilation",
-    "score": 0.91,
-    "performance": 0.96,
+    "score": 0.92,
+    "performance": 1,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.83
   },
   {
     "path": "/energysaver/weatherization",
-    "score": 0.92,
-    "performance": 1,
+    "score": 0.91,
+    "performance": 0.96,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.83
@@ -1034,47 +1034,47 @@
   {
     "path": "/fecm/our-budget",
     "score": 0.93,
-    "performance": 1,
+    "performance": 0.97,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.91
   },
   {
     "path": "/fossil",
-    "score": 0.91,
-    "performance": 0.88,
+    "score": 0.93,
+    "performance": 0.95,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.83
   },
   {
     "path": "/funding-financing",
-    "score": 0.96,
-    "performance": 0.99,
+    "score": 0.95,
+    "performance": 0.96,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.91
   },
   {
     "path": "/ig/office-inspector-general",
-    "score": 0.91,
-    "performance": 0.98,
+    "score": 0.92,
+    "performance": 1,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.83
   },
   {
     "path": "/infrastructure",
-    "score": 0.94,
-    "performance": 1,
+    "score": 0.93,
+    "performance": 0.97,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.91
   },
   {
     "path": "/infrastructure/about-community-benefits-plans",
-    "score": 0.84,
-    "performance": 0.76,
+    "score": 0.83,
+    "performance": 0.72,
     "accessibility": 0.94,
     "best-practices": 0.83,
     "seo": 0.82
@@ -1082,7 +1082,7 @@
   {
     "path": "/infrastructure/undersecretary-infrastructure/person/david-crane",
     "score": 0.9,
-    "performance": 0.93,
+    "performance": 0.92,
     "accessibility": 0.94,
     "best-practices": 0.92,
     "seo": 0.82
@@ -1090,7 +1090,7 @@
   {
     "path": "/investments-american-made-energy",
     "score": 0.92,
-    "performance": 0.93,
+    "performance": 0.92,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.83
@@ -1106,39 +1106,39 @@
   {
     "path": "/leadership/organization-chart",
     "score": 0.93,
-    "performance": 0.96,
+    "performance": 0.98,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.9
   },
   {
     "path": "/listings/blog-archive",
-    "score": 0.92,
-    "performance": 0.96,
+    "score": 0.9,
+    "performance": 0.86,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.9
   },
   {
     "path": "/listings/malarkey-corner",
-    "score": 0.94,
-    "performance": 1,
+    "score": 0.93,
+    "performance": 0.99,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.9
   },
   {
     "path": "/listings/news-blog",
-    "score": 0.93,
-    "performance": 0.99,
+    "score": 0.92,
+    "performance": 0.95,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.9
   },
   {
     "path": "/lm/doe-history",
-    "score": 0.91,
-    "performance": 0.98,
+    "score": 0.92,
+    "performance": 1,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.84
@@ -1146,15 +1146,15 @@
   {
     "path": "/lpo/loan-programs-office",
     "score": 0.92,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.94,
     "best-practices": 0.92,
     "seo": 0.83
   },
   {
     "path": "/management/freedom-information-act",
-    "score": 0.9,
-    "performance": 0.9,
+    "score": 0.91,
+    "performance": 0.91,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
@@ -1170,7 +1170,7 @@
   {
     "path": "/media/286852",
     "score": 0.91,
-    "performance": 1,
+    "performance": 0.97,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.82
@@ -1186,7 +1186,7 @@
   {
     "path": "/national-security-safety",
     "score": 0.95,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.9
@@ -1202,7 +1202,7 @@
   {
     "path": "/newsroom",
     "score": 0.93,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.9
@@ -1225,8 +1225,8 @@
   },
   {
     "path": "/node/2797",
-    "score": 0.95,
-    "performance": 0.99,
+    "score": 0.96,
+    "performance": 1,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.9
@@ -1234,7 +1234,7 @@
   {
     "path": "/node/29131",
     "score": 0.9,
-    "performance": 0.91,
+    "performance": 0.93,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.84
@@ -1265,8 +1265,8 @@
   },
   {
     "path": "/nuclear",
-    "score": 0.94,
-    "performance": 1,
+    "score": 0.93,
+    "performance": 0.98,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.83
@@ -1281,8 +1281,8 @@
   },
   {
     "path": "/oced/events/energy-improvements-rural-or-remote-areas",
-    "score": 0.86,
-    "performance": 0.8,
+    "score": 0.85,
+    "performance": 0.76,
     "accessibility": 0.92,
     "best-practices": 0.83,
     "seo": 0.89
@@ -1290,31 +1290,31 @@
   {
     "path": "/oe/budget",
     "score": 0.93,
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/oe/office-electricity",
-    "score": 0.82,
-    "performance": 0.68,
+    "score": 0.81,
+    "performance": 0.64,
     "accessibility": 0.93,
     "best-practices": 0.83,
     "seo": 0.84
   },
   {
     "path": "/offices",
-    "score": 0.94,
-    "performance": 1,
+    "score": 0.92,
+    "performance": 0.93,
     "accessibility": 0.9,
     "best-practices": 1,
     "seo": 0.85
   },
   {
     "path": "/open-government",
-    "score": 0.96,
-    "performance": 1,
+    "score": 0.95,
+    "performance": 0.98,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.91
@@ -1329,8 +1329,8 @@
   },
   {
     "path": "/osdbu/articles/3-highlights-2023-doe-small-business-forum-expo",
-    "score": 0.9,
-    "performance": 0.88,
+    "score": 0.91,
+    "performance": 0.89,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.89
@@ -1345,8 +1345,8 @@
   },
   {
     "path": "/person/annemarie-horowitz",
-    "score": 0.94,
-    "performance": 1,
+    "score": 0.9,
+    "performance": 0.88,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.82
@@ -1361,32 +1361,32 @@
   },
   {
     "path": "/person/dr-geri-richmond",
-    "score": 0.92,
-    "performance": 0.95,
+    "score": 0.87,
+    "performance": 0.73,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.82
   },
   {
     "path": "/person/jennifer-m-granholm",
-    "score": 0.85,
-    "performance": 0.77,
+    "score": 0.84,
+    "performance": 0.76,
     "accessibility": 0.93,
     "best-practices": 0.92,
     "seo": 0.76
   },
   {
     "path": "/phonebook",
-    "score": 0.93,
-    "performance": 1,
+    "score": 0.88,
+    "performance": 0.8,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/photos/photo-gallery-2017-arpa-e-innovation-summit-technology-showcase",
-    "score": 0.92,
-    "performance": 0.95,
+    "score": 0.93,
+    "performance": 0.97,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.9
@@ -1401,8 +1401,8 @@
   },
   {
     "path": "/policy/energy-jobs",
-    "score": 0.93,
-    "performance": 1,
+    "score": 0.91,
+    "performance": 0.93,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
@@ -1417,24 +1417,24 @@
   },
   {
     "path": "/pppo",
-    "score": 0.92,
-    "performance": 1,
+    "score": 0.9,
+    "performance": 0.93,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.84
   },
   {
     "path": "/prices-trends",
-    "score": 0.92,
-    "performance": 0.94,
+    "score": 0.93,
+    "performance": 0.97,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.83
   },
   {
     "path": "/promoting-energy-justice",
-    "score": 0.93,
-    "performance": 0.96,
+    "score": 0.94,
+    "performance": 0.99,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.83
@@ -1449,8 +1449,8 @@
   },
   {
     "path": "/scep/articles/state-and-community-energy-programs-project-map-missouri",
-    "score": 0.93,
-    "performance": 0.99,
+    "score": 0.89,
+    "performance": 0.85,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.88
@@ -1458,7 +1458,7 @@
   {
     "path": "/scep/articles/state-and-community-energy-programs-project-map-new-jersey",
     "score": 0.93,
-    "performance": 0.97,
+    "performance": 0.98,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.89
@@ -1466,39 +1466,39 @@
   {
     "path": "/scep/articles/state-and-community-energy-programs-project-map-new-mexico",
     "score": 0.93,
-    "performance": 0.98,
+    "performance": 1,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/scep/articles/state-and-community-energy-programs-project-map-ohio",
-    "score": 0.92,
-    "performance": 0.96,
+    "score": 0.93,
+    "performance": 1,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.88
   },
   {
     "path": "/scep/office-state-and-community-energy-programs",
-    "score": 0.84,
-    "performance": 0.75,
+    "score": 0.83,
+    "performance": 0.71,
     "accessibility": 0.93,
     "best-practices": 0.83,
     "seo": 0.83
   },
   {
     "path": "/scep/slsc/home-energy-rebate-programs",
-    "score": 0.85,
-    "performance": 0.81,
+    "score": 0.83,
+    "performance": 0.75,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.83
   },
   {
     "path": "/scep/tribal-home-energy-rebates",
-    "score": 0.93,
-    "performance": 1,
+    "score": 0.86,
+    "performance": 0.71,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.89
@@ -1506,23 +1506,23 @@
   {
     "path": "/scep/wap/weatherization-assistance-program",
     "score": 0.91,
-    "performance": 0.99,
+    "performance": 1,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.83
   },
   {
     "path": "/scep/wap/weatherization-assistance-program-enhancement-and-innovation-selections",
-    "score": 0.93,
-    "performance": 1,
+    "score": 0.84,
+    "performance": 0.61,
     "accessibility": 0.9,
     "best-practices": 0.92,
     "seo": 0.91
   },
   {
     "path": "/science-innovation",
-    "score": 0.95,
-    "performance": 0.98,
+    "score": 0.96,
+    "performance": 1,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.91
@@ -1537,40 +1537,40 @@
   },
   {
     "path": "/science/articles/trifecta-technique-teaches-us-about-plants-adaptability",
-    "score": 0.93,
-    "performance": 0.98,
+    "score": 0.92,
+    "performance": 0.93,
     "accessibility": 0.92,
     "best-practices": 0.92,
     "seo": 0.89
   },
   {
     "path": "/solar",
-    "score": 0.94,
-    "performance": 1,
+    "score": 0.92,
+    "performance": 0.94,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.83
   },
   {
     "path": "/state-local-government",
-    "score": 0.94,
-    "performance": 0.95,
+    "score": 0.92,
+    "performance": 0.85,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.9
   },
   {
     "path": "/supercomputing-and-exascale",
-    "score": 0.84,
-    "performance": 0.68,
+    "score": 0.74,
+    "performance": 0.37,
     "accessibility": 0.93,
-    "best-practices": 0.92,
+    "best-practices": 0.83,
     "seo": 0.83
   },
   {
     "path": "/vehicles",
     "score": 0.85,
-    "performance": 0.7,
+    "performance": 0.71,
     "accessibility": 0.93,
     "best-practices": 0.92,
     "seo": 0.84
@@ -1586,15 +1586,15 @@
   {
     "path": "/whistleblower-protection-and-nondisclosure-agreements",
     "score": 0.95,
-    "performance": 0.97,
+    "performance": 1,
     "accessibility": 0.92,
     "best-practices": 1,
     "seo": 0.89
   },
   {
     "path": "/wind",
-    "score": 0.84,
-    "performance": 0.68,
+    "score": 0.81,
+    "performance": 0.54,
     "accessibility": 0.93,
     "best-practices": 0.92,
     "seo": 0.84
