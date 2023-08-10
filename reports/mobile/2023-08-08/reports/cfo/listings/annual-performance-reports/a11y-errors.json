@@ -1,0 +1,1101 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-145-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,0,DIV,0,A,0,SPAN,0,SPAN",
+            "selector": "div.office-title > a > span.office-title-prefix > span.office-title-office",
+            "boundingRect": {
+              "top": 27,
+              "bottom": 43,
+              "left": 102,
+              "right": 133,
+              "width": 31,
+              "height": 16
+            },
+            "snippet": "<span class=\"office-title-office\">",
+            "nodeLabel": "Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-146-NAV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV",
+                  "selector": "div.overlay-body > div.layout-container > header > nav.navbar",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 157,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 157
+                  },
+                  "snippet": "<nav role=\"navigation\" aria-labelledby=\"main-nav\" class=\"navbar navbar--suboffice\">",
+                  "nodeLabel": "Office of\nTHE CHIEF FINANCIAL OFFICER\nMain navigation\nOFFICE OF THE CHIEF FINAN…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-147-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,0,DIV,0,A,0,SPAN,1,SPAN",
+            "selector": "div.office-title > a > span.office-title-prefix > span.office-title-of",
+            "boundingRect": {
+              "top": 27,
+              "bottom": 43,
+              "left": 136,
+              "right": 146,
+              "width": 10,
+              "height": 16
+            },
+            "snippet": "<span class=\"office-title-of\">",
+            "nodeLabel": "of",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-146-NAV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV",
+                  "selector": "div.overlay-body > div.layout-container > header > nav.navbar",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 157,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 157
+                  },
+                  "snippet": "<nav role=\"navigation\" aria-labelledby=\"main-nav\" class=\"navbar navbar--suboffice\">",
+                  "nodeLabel": "Office of\nTHE CHIEF FINANCIAL OFFICER\nMain navigation\nOFFICE OF THE CHIEF FINAN…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-148-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,NAV,1,UL,0,LI,0,SPAN,0,SPAN",
+            "selector": "ul.js-pager__items > li.pagination-item > span.button > span",
+            "boundingRect": {
+              "top": 3989,
+              "bottom": 4005,
+              "left": 50,
+              "right": 85,
+              "width": 35,
+              "height": 16
+            },
+            "snippet": "<span>",
+            "nodeLabel": "FIRST",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.63 (foreground color: #c8cbc8, background color: #ffffff, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-149-SPAN",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,NAV,1,UL,0,LI,0,SPAN",
+                  "selector": "nav.pagination-container > ul.js-pager__items > li.pagination-item > span.button",
+                  "boundingRect": {
+                    "top": 3967,
+                    "bottom": 4027,
+                    "left": 29,
+                    "right": 106,
+                    "width": 77,
+                    "height": 60
+                  },
+                  "snippet": "<span class=\"button disabled\" href=\"\" aria-label=\"First\">",
+                  "nodeLabel": "FIRST"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-150-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,NAV,1,UL,1,LI,0,SPAN,0,SPAN",
+            "selector": "ul.js-pager__items > li.pagination-item > span.button > span",
+            "boundingRect": {
+              "top": 3989,
+              "bottom": 4005,
+              "left": 146,
+              "right": 177,
+              "width": 31,
+              "height": 16
+            },
+            "snippet": "<span>",
+            "nodeLabel": "PREV",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.63 (foreground color: #c8cbc8, background color: #ffffff, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-151-SPAN",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,NAV,1,UL,1,LI,0,SPAN",
+                  "selector": "nav.pagination-container > ul.js-pager__items > li.pagination-item > span.button",
+                  "boundingRect": {
+                    "top": 3967,
+                    "bottom": 4027,
+                    "left": 125,
+                    "right": 198,
+                    "width": 73,
+                    "height": 60
+                  },
+                  "snippet": "<span class=\"button disabled\" href=\"\" aria-label=\"Previous\">",
+                  "nodeLabel": "PREV"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-152-H4",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,H4",
+            "selector": "div.navbar-overlay > div.navbar-inner > div.accordion > h4.nav-title",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 81,
+              "left": -618,
+              "right": -261,
+              "width": 357,
+              "height": 81
+            },
+            "snippet": "<h4 class=\"nav-title\">",
+            "nodeLabel": "OFFICE OF THE CHIEF FINANCIAL OFFICER HOME",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-153-H5",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,H5",
+            "selector": "div.search-results > div.search-result > div.result-content > h5",
+            "boundingRect": {
+              "top": 889,
+              "bottom": 1033,
+              "left": 40,
+              "right": 372,
+              "width": 332,
+              "height": 144
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "FY 2018 DOE Annual Performance Report / FY 2020 Annual Performance Plan",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-154-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL",
+            "selector": "div.nav--subnavigation > div.dropdown > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 88,
+              "bottom": 748,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 660
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--parent\">",
+            "nodeLabel": "REPORTS\nAgency Financial Reports\nAnnual Performance Reports\nAnnual Uncosted Bal…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-155-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV",
+                  "selector": "div.dropdown > div.child-menu > ul.dropdown-menu > div.dropdown",
+                  "boundingRect": {
+                    "top": 88,
+                    "bottom": 748,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 660
+                  },
+                  "snippet": "<div class=\"dropdown dropdown--button dropdown--tree\">",
+                  "nodeLabel": "REPORTS\nAgency Financial Reports\nAnnual Performance Reports\nAnnual Uncosted Bal…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-156-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL",
+            "selector": "ul.dropdown-menu > div.dropdown > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 88,
+              "bottom": 748,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 660
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--parent\">",
+            "nodeLabel": "REPORTS\nAgency Financial Reports\nAnnual Performance Reports\nAnnual Uncosted Bal…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-157-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV",
+                  "selector": "div.dropdown > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 88,
+                    "bottom": 748,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 660
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "REPORTS\nAgency Financial Reports\nAnnual Performance Reports\nAnnual Uncosted Bal…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-158-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 81,
+              "bottom": 140,
+              "left": -618,
+              "right": -261,
+              "width": 357,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "ABOUT US",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-159-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 200,
+              "bottom": 259,
+              "left": -618,
+              "right": -261,
+              "width": 357,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SERVICES",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-160-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 259,
+              "bottom": 317,
+              "left": -618,
+              "right": -261,
+              "width": 357,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "REPORTS",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-161-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.nav-item",
+            "boundingRect": {
+              "top": 317,
+              "bottom": 376,
+              "left": -618,
+              "right": -261,
+              "width": 357,
+              "height": 59
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "MISSION",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-162-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 88,
+              "bottom": 154,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--first dropdown-item--firstparent dropdown-ite…\">",
+            "nodeLabel": "REPORTS",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-163-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 154,
+              "bottom": 220,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Agency Financial Reports",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-164-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 220,
+              "bottom": 286,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Annual Performance Reports",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-165-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 286,
+              "bottom": 352,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Annual Uncosted Balances Reports",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-166-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,4,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 352,
+              "bottom": 418,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Budget",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-167-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 418,
+              "bottom": 484,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Environmental & ES&H Liabilities",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-168-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,6,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 484,
+              "bottom": 550,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Financial Management Handbook",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-169-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,7,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 550,
+              "bottom": 616,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "LDR&D Annual Reports",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-170-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,8,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 616,
+              "bottom": 682,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Management Improvement Initiatives",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-171-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,9,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 682,
+              "bottom": 748,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Research & Innovation Act Database",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-172-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4506,
+              "bottom": 4531,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Careers & Internships",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-173-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4571,
+              "bottom": 4596,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Budget & Performance",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-174-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4596,
+              "bottom": 4621,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Covid-19 Response",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-175-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4621,
+              "bottom": 4646,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Directives, Delegations & Requirements",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-176-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4646,
+              "bottom": 4671,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "FOIA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-177-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4671,
+              "bottom": 4696,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Inspector General",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-178-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,5,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4696,
+              "bottom": 4721,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Privacy Program",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-179-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,6,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4721,
+              "bottom": 4746,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Small Business",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-180-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4636,
+              "bottom": 4661,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "The White House",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-181-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4661,
+              "bottom": 4686,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "USA.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-182-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4686,
+              "bottom": 4711,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Vote.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 25
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"visually-hidden focusable\" tabindex=\"1\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-10-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div#main-nav > div.navbar-office > div.office-title > a",
+            "boundingRect": {
+              "top": 27,
+              "bottom": 61,
+              "left": 102,
+              "right": 319,
+              "width": 217,
+              "height": 34
+            },
+            "snippet": "<a href=\"/cfo\" aria-label=\"Office of the Chief Financial Officer\" tabindex=\"1\">",
+            "nodeLabel": "Office of\nTHE CHIEF FINANCIAL OFFICER",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-158-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 81,
+              "bottom": 140,
+              "left": -618,
+              "right": -261,
+              "width": 357,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "ABOUT US",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-11-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 81,
+              "bottom": 140,
+              "left": -618,
+              "right": -311,
+              "width": 307,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/cfo/about-us\" tabindex=\"1\">",
+            "nodeLabel": "ABOUT US",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-159-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 200,
+              "bottom": 259,
+              "left": -618,
+              "right": -261,
+              "width": 357,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SERVICES",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-16-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 200,
+              "bottom": 259,
+              "left": -618,
+              "right": -311,
+              "width": 307,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/cfo/services\" tabindex=\"1\">",
+            "nodeLabel": "SERVICES",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-160-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 259,
+              "bottom": 317,
+              "left": -618,
+              "right": -261,
+              "width": 357,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "REPORTS",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-21-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,1,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 259,
+              "bottom": 317,
+              "left": -618,
+              "right": -311,
+              "width": 307,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/cfo/reports\" tabindex=\"1\">",
+            "nodeLabel": "REPORTS",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-31-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,2,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.nav-item > a.nav-link",
+            "boundingRect": {
+              "top": 317,
+              "bottom": 376,
+              "left": -618,
+              "right": -311,
+              "width": 307,
+              "height": 59
+            },
+            "snippet": "<a class=\"nav-link\" href=\"/cfo/mission\" tabindex=\"1\">",
+            "nodeLabel": "MISSION",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 9
+  }
+]

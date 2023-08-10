@@ -1,0 +1,4179 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-45-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,1,NAV,0,OL,0,LI,0,A",
+            "selector": "nav > ol.breadcrumb > li.breadcrumb-item > a",
+            "boundingRect": {
+              "top": 399,
+              "bottom": 414,
+              "left": 55,
+              "right": 90,
+              "width": 35,
+              "height": 15
+            },
+            "snippet": "<a href=\"/\" aria-label=\"Home\">",
+            "nodeLabel": "Home",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.96 (foreground color: #127ea8, background color: #ebeff2, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-419-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV",
+                  "selector": "body.page-offices > div.dialog-off-canvas-main-canvas > div.body-inner",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 6356,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 6356
+                  },
+                  "snippet": "<div class=\"body-inner overlay-main\">",
+                  "nodeLabel": "National Labs\nOffices\nCareers\nNewsroom\nAbout\n \n \n \n \nEnter the terms you wish t…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-420-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 617,
+              "bottom": 673,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-421-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 467,
+                    "bottom": 687,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nElectricity\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-422-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 617,
+              "bottom": 673,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-423-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 467,
+                    "bottom": 687,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nIndian Energy Policy and Programs\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-424-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 617,
+              "bottom": 673,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-425-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,2,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 467,
+                    "bottom": 687,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Advanced Research Projects Agency - Energy\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-426-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,3,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 617,
+              "bottom": 673,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-427-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,3,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 467,
+                    "bottom": 687,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nEnergy Efficiency & Renewable Energy\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-428-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,4,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 850,
+              "bottom": 906,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-429-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,4,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 700,
+                    "bottom": 920,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nEnvironmental Management\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-430-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,5,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 850,
+              "bottom": 906,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-431-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,5,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 700,
+                    "bottom": 920,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nFossil Energy and Carbon Management\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-432-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,6,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 850,
+              "bottom": 906,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-433-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,6,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 700,
+                    "bottom": 920,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nLegacy Management\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-434-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,7,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 850,
+              "bottom": 906,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-435-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,7,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 700,
+                    "bottom": 920,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Loan Programs Office\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-436-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,8,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1083,
+              "bottom": 1139,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-437-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,8,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 933,
+                    "bottom": 1153,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nNuclear Energy\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-438-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,9,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1083,
+              "bottom": 1139,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-439-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,9,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 933,
+                    "bottom": 1153,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nScience\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-440-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,10,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1083,
+              "bottom": 1139,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-441-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,10,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 933,
+                    "bottom": 1153,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Federal Energy Management Program\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-442-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,11,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1083,
+              "bottom": 1139,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-443-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,11,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 933,
+                    "bottom": 1153,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nState and Community Energy Programs\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-444-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,12,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1316,
+              "bottom": 1372,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-445-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,12,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1166,
+                    "bottom": 1386,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nCybersecurity, Energy Security, and Emergency Response\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-446-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,13,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1316,
+              "bottom": 1372,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-447-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,13,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1166,
+                    "bottom": 1386,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Artificial Intelligence & Technology Office\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-448-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,14,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1316,
+              "bottom": 1372,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-449-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,14,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1166,
+                    "bottom": 1386,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nClean Energy Demonstrations\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-450-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,15,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1316,
+              "bottom": 1372,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-451-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,15,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1166,
+                    "bottom": 1386,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nManufacturing and Energy Supply Chains\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-452-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,16,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1549,
+              "bottom": 1605,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-453-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,16,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1399,
+                    "bottom": 1619,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Grid Deployment Office\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-454-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1859,
+              "bottom": 1915,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-455-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1709,
+                    "bottom": 1929,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nthe Chief Information Officer\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-456-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1859,
+              "bottom": 1915,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-457-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,1,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1709,
+                    "bottom": 1929,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nInspector General\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-458-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,2,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1859,
+              "bottom": 1915,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-459-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,2,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1709,
+                    "bottom": 1929,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nthe General Counsel\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-460-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,3,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 1859,
+              "bottom": 1915,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-461-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,3,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1709,
+                    "bottom": 1929,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nNEPA Policy and Compliance\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-462-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,4,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2092,
+              "bottom": 2148,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-463-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,4,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1942,
+                    "bottom": 2162,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nInternational Affairs\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-464-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,5,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2092,
+              "bottom": 2148,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-465-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,5,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1942,
+                    "bottom": 2162,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nEconomic Impact and Diversity\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-466-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,6,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2092,
+              "bottom": 2148,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-467-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,6,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1942,
+                    "bottom": 2162,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nManagement\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-468-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,7,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2092,
+              "bottom": 2148,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-469-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,7,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 1942,
+                    "bottom": 2162,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nCongressional and Intergovernmental Affairs\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-470-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,8,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2325,
+              "bottom": 2381,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-471-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,8,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2175,
+                    "bottom": 2395,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nthe Chief Human Capital Officer\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-472-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,9,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2325,
+              "bottom": 2381,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-473-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,9,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2175,
+                    "bottom": 2395,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nthe Chief Financial Officer\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-474-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,10,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2325,
+              "bottom": 2381,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-475-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,10,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2175,
+                    "bottom": 2395,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nEnterprise Assessments\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-476-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,11,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2325,
+              "bottom": 2381,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-477-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,11,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2175,
+                    "bottom": 2395,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nHearings and Appeals\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-478-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,12,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2558,
+              "bottom": 2614,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-479-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,12,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2408,
+                    "bottom": 2628,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nPublic Affairs\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-480-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,13,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2558,
+              "bottom": 2614,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-481-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,13,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2408,
+                    "bottom": 2628,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nIntelligence and Counterintelligence\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-482-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,14,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2558,
+              "bottom": 2614,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-483-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,14,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2408,
+                    "bottom": 2628,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nSmall and Disadvantaged Business Utilization\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-484-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,15,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2558,
+              "bottom": 2614,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-485-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,15,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2408,
+                    "bottom": 2628,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nEnvironment, Health, Safety & Security\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-486-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,16,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2791,
+              "bottom": 2847,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-487-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,16,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2641,
+                    "bottom": 2861,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nPolicy\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-488-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,17,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2791,
+              "bottom": 2847,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-489-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,17,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2641,
+                    "bottom": 2861,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nTechnology Transitions\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-490-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,18,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2791,
+              "bottom": 2847,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-491-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,18,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2641,
+                    "bottom": 2861,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nProject Management\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-492-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,19,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 2791,
+              "bottom": 2847,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-493-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,19,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2641,
+                    "bottom": 2861,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Arctic Energy Office\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-494-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3101,
+              "bottom": 3157,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-495-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2951,
+                    "bottom": 3171,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Ames Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-496-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3101,
+              "bottom": 3157,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-497-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,1,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2951,
+                    "bottom": 3171,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Argonne National Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-498-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,2,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3101,
+              "bottom": 3157,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-499-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,2,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2951,
+                    "bottom": 3171,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Brookhaven National Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-500-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,3,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3101,
+              "bottom": 3157,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-501-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,3,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 2951,
+                    "bottom": 3171,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Fermi National Accelerator Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-502-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,4,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3334,
+              "bottom": 3390,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-503-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,4,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3184,
+                    "bottom": 3404,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Idaho National Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-504-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,5,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3334,
+              "bottom": 3390,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-505-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,5,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3184,
+                    "bottom": 3404,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Lawrence Berkeley National Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-506-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,6,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3334,
+              "bottom": 3390,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-507-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,6,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3184,
+                    "bottom": 3404,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Lawrence Livermore National Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-508-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,7,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3334,
+              "bottom": 3390,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-509-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,7,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3184,
+                    "bottom": 3404,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Los Alamos National Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-510-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,8,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3567,
+              "bottom": 3623,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-511-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,8,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3417,
+                    "bottom": 3637,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "National Energy Technology Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-512-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,9,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3567,
+              "bottom": 3623,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-513-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,9,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3417,
+                    "bottom": 3637,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "National Renewable Energy Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-514-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,10,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3567,
+              "bottom": 3623,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-515-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,10,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3417,
+                    "bottom": 3637,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "New Brunswick Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-516-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,11,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3567,
+              "bottom": 3623,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-517-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,11,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3417,
+                    "bottom": 3637,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Oak Ridge Institute for Science and Education\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-518-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,12,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3800,
+              "bottom": 3856,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-519-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,12,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3650,
+                    "bottom": 3870,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Oak Ridge National Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-520-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,13,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3800,
+              "bottom": 3856,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-521-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,13,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3650,
+                    "bottom": 3870,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Pacific Northwest National Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-522-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,14,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3800,
+              "bottom": 3856,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-523-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,14,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3650,
+                    "bottom": 3870,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Princeton Plasma Physics Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-524-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,15,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 3800,
+              "bottom": 3856,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-525-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,15,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3650,
+                    "bottom": 3870,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Radiological and Environmental Sciences Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-526-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,16,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4033,
+              "bottom": 4089,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-527-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,16,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3883,
+                    "bottom": 4103,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Sandia National Laboratories\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-528-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,17,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4033,
+              "bottom": 4089,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-529-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,17,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3883,
+                    "bottom": 4103,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Savannah River Ecology Laboratory \nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-530-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,18,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4033,
+              "bottom": 4089,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-531-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,18,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3883,
+                    "bottom": 4103,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Savannah River National Laboratory\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-532-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,19,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4033,
+              "bottom": 4089,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-533-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,19,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 3883,
+                    "bottom": 4103,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "SLAC National Accelerator Laboratory \nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-534-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,20,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4266,
+              "bottom": 4322,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-535-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,2,DIV,1,DIV,20,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4116,
+                    "bottom": 4336,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Thomas Jefferson National Accelerator Facility \nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-536-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4576,
+              "bottom": 4632,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-537-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4426,
+                    "bottom": 4646,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Bonneville Power Administration\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-538-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,3,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4576,
+              "bottom": 4632,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-539-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,3,DIV,1,DIV,1,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4426,
+                    "bottom": 4646,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Southeastern Power Administration\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-540-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,3,DIV,1,DIV,2,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4576,
+              "bottom": 4632,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-541-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,3,DIV,1,DIV,2,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4426,
+                    "bottom": 4646,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Southwestern Power Administration\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-542-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,3,DIV,1,DIV,3,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4576,
+              "bottom": 4632,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-543-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,3,DIV,1,DIV,3,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4426,
+                    "bottom": 4646,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Western Area Power Administration\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-544-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4886,
+              "bottom": 4942,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-545-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4736,
+                    "bottom": 4956,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Carlsbad Field Office\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-546-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4886,
+              "bottom": 4942,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-547-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,1,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4736,
+                    "bottom": 4956,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Golden Field Office\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-548-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,2,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4886,
+              "bottom": 4942,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-549-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,2,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4736,
+                    "bottom": 4956,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Idaho Operations Office\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-550-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,3,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 4886,
+              "bottom": 4942,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-551-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,3,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4736,
+                    "bottom": 4956,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Oak Ridge Office of Environmental Management\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-552-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,4,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 5119,
+              "bottom": 5175,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-553-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,4,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4969,
+                    "bottom": 5189,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Savannah River Operations Office\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-554-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,5,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 5119,
+              "bottom": 5175,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-555-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,5,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4969,
+                    "bottom": 5189,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Richland Operations Office\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-556-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,6,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 5119,
+              "bottom": 5175,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-557-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,6,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4969,
+                    "bottom": 5189,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nRiver Protection\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-558-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,7,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 5119,
+              "bottom": 5175,
+              "left": 1034,
+              "right": 1138,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-559-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,7,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 4969,
+                    "bottom": 5189,
+                    "left": 955,
+                    "right": 1217,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Office of\nScience Field Offices\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-560-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,8,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 5352,
+              "bottom": 5408,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-561-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,8,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 5202,
+                    "bottom": 5422,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Portsmouth/Paducah Project Office\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-562-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,9,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 5352,
+              "bottom": 5408,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-563-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,9,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 5202,
+                    "bottom": 5422,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Environmental Management Los Alamos Field Office\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-564-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,10,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 5352,
+              "bottom": 5408,
+              "left": 761,
+              "right": 865,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-565-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,4,DIV,1,DIV,10,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 5202,
+                    "bottom": 5422,
+                    "left": 681,
+                    "right": 944,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Savannah River Site\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-566-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,5,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 5662,
+              "bottom": 5718,
+              "left": 214,
+              "right": 318,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-567-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,5,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 5512,
+                    "bottom": 5732,
+                    "left": 135,
+                    "right": 397,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "Energy Information Administration\nMORE INFO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-568-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,5,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,SPAN",
+            "selector": "div.office-grouping-office > div.office-card > div.office-more-link > span.more-info",
+            "boundingRect": {
+              "top": 5662,
+              "bottom": 5718,
+              "left": 487,
+              "right": 591,
+              "width": 104,
+              "height": 56
+            },
+            "snippet": "<span class=\"more-info\">",
+            "nodeLabel": "MORE INFO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-569-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,5,DIV,1,DIV,1,DIV,0,DIV",
+                  "selector": "div.office-groupings > div.office-grouping > div.office-grouping-office > div.office-card",
+                  "boundingRect": {
+                    "top": 5512,
+                    "bottom": 5732,
+                    "left": 408,
+                    "right": 671,
+                    "width": 262,
+                    "height": 220
+                  },
+                  "snippet": "<div class=\"office-card\">",
+                  "nodeLabel": "National Nuclear Security Administration\nMORE INFO"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 76
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-570-H4",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,H4",
+            "selector": "div#block-particle-content > div.offices-listing-page > div.office-groupings > h4",
+            "boundingRect": {
+              "top": 431,
+              "bottom": 459,
+              "left": 55,
+              "right": 1295,
+              "width": 1240,
+              "height": 28
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "PROGRAM OFFICES",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-571-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.nav-item",
+            "boundingRect": {
+              "top": 8,
+              "bottom": 23,
+              "left": 1203,
+              "right": 1295,
+              "width": 92,
+              "height": 15
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "National Labs",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-572-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.nav-item",
+            "boundingRect": {
+              "top": 8,
+              "bottom": 23,
+              "left": 1142,
+              "right": 1203,
+              "width": 61,
+              "height": 15
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Offices",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-573-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.nav-item",
+            "boundingRect": {
+              "top": 8,
+              "bottom": 23,
+              "left": 1076,
+              "right": 1142,
+              "width": 66,
+              "height": 15
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Careers",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-574-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,0,NAV,3,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.nav-item",
+            "boundingRect": {
+              "top": 8,
+              "bottom": 23,
+              "left": 993,
+              "right": 1076,
+              "width": 83,
+              "height": 15
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Newsroom",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-575-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,0,NAV,4,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 8,
+              "bottom": 23,
+              "left": 938,
+              "right": 993,
+              "width": 55,
+              "height": 15
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-576-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 370,
+              "right": 581,
+              "width": 211,
+              "height": 88
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SCIENCE & INNOVATION",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-577-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 581,
+              "right": 756,
+              "width": 174,
+              "height": 88
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "ENERGY ECONOMY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-578-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 756,
+              "right": 942,
+              "width": 186,
+              "height": 88
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SECURITY & SAFETY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-579-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,3,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 942,
+              "right": 1229,
+              "width": 287,
+              "height": 88
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SAVE ENERGY, SAVE MONEY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-580-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5883,
+              "bottom": 5908,
+              "left": 357,
+              "right": 659,
+              "width": 302,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "History",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-581-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5908,
+              "bottom": 5933,
+              "left": 357,
+              "right": 659,
+              "width": 302,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "DOE STEM",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-582-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5933,
+              "bottom": 5958,
+              "left": 357,
+              "right": 659,
+              "width": 302,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Careers",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-583-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,3,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5958,
+              "bottom": 5983,
+              "left": 357,
+              "right": 659,
+              "width": 302,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-584-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5883,
+              "bottom": 5908,
+              "left": 755,
+              "right": 962,
+              "width": 207,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Budget & Performance",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-585-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5908,
+              "bottom": 5933,
+              "left": 755,
+              "right": 962,
+              "width": 207,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Covid-19 Response",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-586-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5933,
+              "bottom": 5976,
+              "left": 755,
+              "right": 962,
+              "width": 207,
+              "height": 43
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Directives, Delegations & Requirements",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-587-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5976,
+              "bottom": 6001,
+              "left": 755,
+              "right": 962,
+              "width": 207,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "FOIA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-588-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6001,
+              "bottom": 6026,
+              "left": 755,
+              "right": 962,
+              "width": 207,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Inspector General",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-589-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,5,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6026,
+              "bottom": 6051,
+              "left": 755,
+              "right": 962,
+              "width": 207,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Privacy Program",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-590-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,6,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6051,
+              "bottom": 6076,
+              "left": 755,
+              "right": 962,
+              "width": 207,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Small Business",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-591-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5883,
+              "bottom": 5908,
+              "left": 1053,
+              "right": 1259,
+              "width": 207,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "The White House",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-592-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5908,
+              "bottom": 5933,
+              "left": 1053,
+              "right": 1259,
+              "width": 207,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "USA.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-593-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5933,
+              "bottom": 5958,
+              "left": 1053,
+              "right": 1259,
+              "width": 207,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Vote.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 23
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body.page-offices > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"visually-hidden focusable\" tabindex=\"1\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.nav-item > a.nav-link",
+            "boundingRect": {
+              "top": 8,
+              "bottom": 23,
+              "left": 1203,
+              "right": 1295,
+              "width": 92,
+              "height": 15
+            },
+            "snippet": "<a class=\"nav-link\" href=\"/national-laboratories\" tabindex=\"1\">",
+            "nodeLabel": "National Labs",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,0,NAV,1,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.nav-item > a.nav-link",
+            "boundingRect": {
+              "top": 8,
+              "bottom": 23,
+              "left": 1142,
+              "right": 1203,
+              "width": 61,
+              "height": 15
+            },
+            "snippet": "<a class=\"nav-link\" href=\"/offices\" tabindex=\"1\">",
+            "nodeLabel": "Offices",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-3-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,0,NAV,2,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.nav-item > a.nav-link",
+            "boundingRect": {
+              "top": 8,
+              "bottom": 23,
+              "left": 1076,
+              "right": 1142,
+              "width": 66,
+              "height": 15
+            },
+            "snippet": "<a class=\"nav-link\" href=\"/careers/jobs\" tabindex=\"1\">",
+            "nodeLabel": "Careers",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-4-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,0,NAV,3,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.nav-item > a.nav-link",
+            "boundingRect": {
+              "top": 8,
+              "bottom": 23,
+              "left": 993,
+              "right": 1076,
+              "width": 83,
+              "height": 15
+            },
+            "snippet": "<a class=\"nav-link\" href=\"/newsroom\" tabindex=\"1\">",
+            "nodeLabel": "Newsroom",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-5-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,0,DIV,0,DIV,0,NAV,4,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 8,
+              "bottom": 23,
+              "left": 938,
+              "right": 993,
+              "width": 55,
+              "height": 15
+            },
+            "snippet": "<a class=\"\" href=\"/about-us\" tabindex=\"1\">",
+            "nodeLabel": "About",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-9-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.utility-outer > div.social-bar-utility > div.social-bar-networks-utility > a",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 30,
+              "left": 747,
+              "right": 777,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<a href=\"https://www.facebook.com/energy\" aria-label=\"Link to Facebook\" tabindex=\"1\">",
+            "nodeLabel": "Link to Facebook",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-10-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,1,DIV,0,DIV,1,A",
+            "selector": "div.utility-outer > div.social-bar-utility > div.social-bar-networks-utility > a",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 30,
+              "left": 786,
+              "right": 816,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<a href=\"https://twitter.com/energy\" aria-label=\"Link to Twitter\" tabindex=\"1\">",
+            "nodeLabel": "Link to Twitter",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-11-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,1,DIV,0,DIV,2,A",
+            "selector": "div.utility-outer > div.social-bar-utility > div.social-bar-networks-utility > a",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 30,
+              "left": 825,
+              "right": 855,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<a href=\"https://www.youtube.com/user/USdepartmentofenergy\" aria-label=\"Link to Youtube\" tabindex=\"1\">",
+            "nodeLabel": "Link to Youtube",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-12-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,1,DIV,0,DIV,3,A",
+            "selector": "div.utility-outer > div.social-bar-utility > div.social-bar-networks-utility > a",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 30,
+              "left": 864,
+              "right": 894,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<a href=\"https://www.instagram.com/energy\" aria-label=\"Link to Instagram\" tabindex=\"1\">",
+            "nodeLabel": "Link to Instagram",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-13-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,0,DIV,0,DIV,1,DIV,0,DIV,4,A",
+            "selector": "div.utility-outer > div.social-bar-utility > div.social-bar-networks-utility > a",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 30,
+              "left": 903,
+              "right": 933,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<a href=\"https://www.linkedin.com/company/u-s--department-of-energy\" aria-label=\"Link to Linkedin\" tabindex=\"1\">",
+            "nodeLabel": "Link to Linkedin",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-14-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div#main-nav > div.navbar-sitename > div.navbar-sitename-content > a",
+            "boundingRect": {
+              "top": 68,
+              "bottom": 91,
+              "left": 95,
+              "right": 290,
+              "width": 195,
+              "height": 23
+            },
+            "snippet": "<a href=\"/\" tabindex=\"1\">",
+            "nodeLabel": "Energy.Gov logo",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-576-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 370,
+              "right": 581,
+              "width": 211,
+              "height": 88
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SCIENCE & INNOVATION",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-16-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 370,
+              "right": 581,
+              "width": 211,
+              "height": 88
+            },
+            "snippet": "<a class=\"\" href=\"/science-innovation\" tabindex=\"1\">",
+            "nodeLabel": "SCIENCE & INNOVATION",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-577-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 581,
+              "right": 756,
+              "width": 174,
+              "height": 88
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "ENERGY ECONOMY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-24-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,1,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 581,
+              "right": 756,
+              "width": 174,
+              "height": 88
+            },
+            "snippet": "<a class=\"\" href=\"/energy-economy\" tabindex=\"1\">",
+            "nodeLabel": "ENERGY ECONOMY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-578-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 756,
+              "right": 942,
+              "width": 186,
+              "height": 88
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SECURITY & SAFETY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-29-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,2,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 756,
+              "right": 942,
+              "width": 186,
+              "height": 88
+            },
+            "snippet": "<a class=\"\" href=\"/national-security-safety\" tabindex=\"1\">",
+            "nodeLabel": "SECURITY & SAFETY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-579-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,3,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 942,
+              "right": 1229,
+              "width": 287,
+              "height": 88
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SAVE ENERGY, SAVE MONEY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-34-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,3,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a.icon",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 942,
+              "right": 1229,
+              "width": 287,
+              "height": 88
+            },
+            "snippet": "<a href=\"/save\" class=\"icon icon icon-energy-saver\" tabindex=\"1\">",
+            "nodeLabel": "SAVE ENERGY, SAVE MONEY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-418-BUTTON",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,BUTTON",
+            "selector": "nav.navbar > div#main-nav > div.navbar-suffix > button.btn",
+            "boundingRect": {
+              "top": 35,
+              "bottom": 123,
+              "left": 1229,
+              "right": 1279,
+              "width": 50,
+              "height": 88
+            },
+            "snippet": "<button type=\"submit\" class=\"btn btn-outline-primary navbar-search-show navbar-suffix-button\" aria-label=\"submit\" tabindex=\"1\">",
+            "nodeLabel": "submit",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 21
+  }
+]

@@ -1,0 +1,2676 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-239-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,0,DIV,0,A,0,SPAN,0,SPAN",
+            "selector": "div.office-title > a > span.office-title-prefix > span.office-title-office",
+            "boundingRect": {
+              "top": 18,
+              "bottom": 33,
+              "left": 102,
+              "right": 133,
+              "width": 31,
+              "height": 16
+            },
+            "snippet": "<span class=\"office-title-office\">",
+            "nodeLabel": "Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-NAV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV",
+                  "selector": "div.overlay-body > div.layout-container > header > nav.navbar",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 157,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 157
+                  },
+                  "snippet": "<nav role=\"navigation\" aria-labelledby=\"main-nav\" class=\"navbar navbar--suboffice\">",
+                  "nodeLabel": "Office of\nENERGY EFFICIENCY & RENEWABLE ENERGY\nMain navigation\nHYDROGEN AND FUE…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-241-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,0,DIV,0,A,0,SPAN,1,SPAN",
+            "selector": "div.office-title > a > span.office-title-prefix > span.office-title-of",
+            "boundingRect": {
+              "top": 18,
+              "bottom": 33,
+              "left": 136,
+              "right": 146,
+              "width": 10,
+              "height": 16
+            },
+            "snippet": "<span class=\"office-title-of\">",
+            "nodeLabel": "of",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-NAV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV",
+                  "selector": "div.overlay-body > div.layout-container > header > nav.navbar",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 157,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 157
+                  },
+                  "snippet": "<nav role=\"navigation\" aria-labelledby=\"main-nav\" class=\"navbar navbar--suboffice\">",
+                  "nodeLabel": "Office of\nENERGY EFFICIENCY & RENEWABLE ENERGY\nMain navigation\nHYDROGEN AND FUE…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-242-H4",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,H4",
+            "selector": "div.navbar-overlay > div.navbar-inner > div.accordion > h4.nav-title",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 81,
+              "left": -618,
+              "right": -195,
+              "width": 423,
+              "height": 81
+            },
+            "snippet": "<h4 class=\"nav-title\">",
+            "nodeLabel": "HYDROGEN AND FUEL CELL TECHNOLOGIES OFFICE HOME",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-243-H4",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,H4",
+            "selector": "div.footer-inner--left > div.footer-inner-block > div.accordion > h4.nav-title",
+            "boundingRect": {
+              "top": 2202,
+              "bottom": 2230,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 28
+            },
+            "snippet": "<h4 class=\"nav-title\">",
+            "nodeLabel": "ABOUT OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-244-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL",
+            "selector": "div.nav--subnavigation > div.dropdown > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 88,
+              "bottom": 1264,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 1176
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--parent\">",
+            "nodeLabel": "HYDROGEN AND FUEL CELL TECHNOLOGIES OFFICE\nAbout the Hydrogen & Fuel Cell Techn…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-245-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV",
+                  "selector": "div.dropdown > div.child-menu > ul.dropdown-menu > div.dropdown",
+                  "boundingRect": {
+                    "top": 88,
+                    "bottom": 1264,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1176
+                  },
+                  "snippet": "<div class=\"dropdown dropdown--button dropdown--tree\">",
+                  "nodeLabel": "HYDROGEN AND FUEL CELL TECHNOLOGIES OFFICE\nAbout the Hydrogen & Fuel Cell Techn…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-246-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL",
+            "selector": "ul.dropdown-menu > div.dropdown > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 88,
+              "bottom": 1264,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 1176
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--parent\">",
+            "nodeLabel": "HYDROGEN AND FUEL CELL TECHNOLOGIES OFFICE\nAbout the Hydrogen & Fuel Cell Techn…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-237-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV",
+                  "selector": "div.dropdown > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 88,
+                    "bottom": 1264,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1176
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "HYDROGEN AND FUEL CELL TECHNOLOGIES OFFICE\nAbout the Hydrogen & Fuel Cell Techn…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-247-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 349,
+              "bottom": 599,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 250
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Key Activities\nPlans, Implementation & Results\nBudget\nAccomplishments\nCareers",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-248-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 379,
+                    "bottom": 569,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 190
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Key Activities\nPlans, Implementation & Results\nBudget\nAccomplishments\nCareers"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-249-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,2,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 349,
+              "bottom": 523,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 174
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Resources\nProcesses\nHydrogen Production Related Links",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-250-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,2,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 379,
+                    "bottom": 493,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 114
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Resources\nProcesses\nHydrogen Production Related Links"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-251-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 414,
+              "bottom": 702,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 288
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Gaseous Hydrogen\nLiquid Hydrogen\nNovel Carriers\nOn-Site & Bulk Storage\nDispensi…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-252-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 444,
+                    "bottom": 672,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 228
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Gaseous Hydrogen\nLiquid Hydrogen\nNovel Carriers\nOn-Site & Bulk Storage\nDispensi…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-253-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,4,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 479,
+              "bottom": 709,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 230
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Physical Storage\nMaterials-Based Storage\nHydrogen Storage Engineering Center of…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-254-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,4,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 509,
+                    "bottom": 679,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 170
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Physical Storage\nMaterials-Based Storage\nHydrogen Storage Engineering Center of…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-255-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 544,
+              "bottom": 756,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 212
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Parts of a Fuel Cell\nFuel Cell Systems\nTypes of Fuel Cells\nFuel Cells Related L…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-256-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 574,
+                    "bottom": 726,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 152
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Parts of a Fuel Cell\nFuel Cell Systems\nTypes of Fuel Cells\nFuel Cells Related L…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-257-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,7,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 675,
+              "bottom": 773,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 98
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Manufacturing Related Links",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-258-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,7,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 705,
+                    "bottom": 743,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 38
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Manufacturing Related Links"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-259-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,8,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 740,
+              "bottom": 932,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 192
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Safety, Codes and Standards Basics\nCurrent Approaches to Safety, Codes & Standa…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-260-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,8,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 770,
+                    "bottom": 902,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 132
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Safety, Codes and Standards Basics\nCurrent Approaches to Safety, Codes & Standa…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-261-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,9,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 805,
+              "bottom": 1093,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 288
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Increase Your H2IQ\nFor Safety & Code Officials\nFor State & Local Governments\nFo…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-262-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,9,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 835,
+                    "bottom": 1063,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 228
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Increase Your H2IQ\nFor Safety & Code Officials\nFor State & Local Governments\nFo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-263-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,10,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 870,
+              "bottom": 1062,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 192
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Early Adoption of Fuel Cells\nEarly Market Applications for Fuel Cells\nFinancial…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-264-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,10,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 900,
+                    "bottom": 1032,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 132
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Early Adoption of Fuel Cells\nEarly Market Applications for Fuel Cells\nFinancial…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-265-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,11,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 935,
+              "bottom": 1109,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 174
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Analysis Methodologies\nDOE H2A Analysis\nScenario Analysis",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-266-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,11,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 965,
+                    "bottom": 1079,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 114
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Analysis Methodologies\nDOE H2A Analysis\nScenario Analysis"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-267-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 1000,
+              "bottom": 1516,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 516
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Publications\nProgram Publications\nTechnical Publications\nEducational Publicatio…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-268-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 1030,
+                    "bottom": 1486,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 456
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Publications\nProgram Publications\nTechnical Publications\nEducational Publicatio…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 13
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-269-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 81,
+              "bottom": 140,
+              "left": -618,
+              "right": -195,
+              "width": 423,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "ABOUT EERE",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-270-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 200,
+              "bottom": 259,
+              "left": -618,
+              "right": -195,
+              "width": 423,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "RESOURCES",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-271-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 259,
+              "bottom": 317,
+              "left": -618,
+              "right": -195,
+              "width": 423,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "BUILDINGS & INDUSTRY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-272-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 317,
+              "bottom": 376,
+              "left": -618,
+              "right": -195,
+              "width": 423,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "RENEWABLE ENERGY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-273-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,3,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 376,
+              "bottom": 434,
+              "left": -618,
+              "right": -195,
+              "width": 423,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SUSTAINABLE TRANSPORTATION",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-274-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 88,
+              "bottom": 219,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 131
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--first dropdown-item--firstparent dropdown-ite…\">",
+            "nodeLabel": "HYDROGEN AND FUEL CELL TECHNOLOGIES OFFICE",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-275-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 219,
+              "bottom": 284,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "About the Hydrogen & Fuel Cell Technologies Office\nKey Activities\nPlans, Implem…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-276-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 379,
+              "bottom": 417,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Key Activities",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-277-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 417,
+              "bottom": 455,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Plans, Implementation & Results",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-278-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 455,
+              "bottom": 493,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Budget",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-279-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL,0,DIV,3,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 493,
+              "bottom": 531,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Accomplishments",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-280-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL,0,DIV,4,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 531,
+              "bottom": 569,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Careers",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-281-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 284,
+              "bottom": 349,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "Hydrogen Production\nResources\nProcesses\nHydrogen Production Related Links",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-282-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,2,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 379,
+              "bottom": 417,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Resources",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-283-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,2,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 417,
+              "bottom": 455,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--parent\">",
+            "nodeLabel": "Processes",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-284-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,2,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 455,
+              "bottom": 493,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Hydrogen Production Related Links",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-285-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 349,
+              "bottom": 414,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "Hydrogen Delivery\nGaseous Hydrogen\nLiquid Hydrogen\nNovel Carriers\nOn-Site & Bul…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-286-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 444,
+              "bottom": 482,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first dropdown-item--par…\">",
+            "nodeLabel": "Gaseous Hydrogen",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-287-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 482,
+              "bottom": 520,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Liquid Hydrogen",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-288-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 520,
+              "bottom": 558,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Novel Carriers",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-289-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV,3,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 558,
+              "bottom": 596,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "On-Site & Bulk Storage",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-290-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV,4,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 596,
+              "bottom": 634,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Dispensing to Vehicles",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-291-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV,5,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 634,
+              "bottom": 672,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Hydrogen Delivery Related Links",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-292-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,4,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 414,
+              "bottom": 479,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "Hydrogen Storage\nPhysical Storage\nMaterials-Based Storage\nHydrogen Storage Engi…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-293-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,4,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 509,
+              "bottom": 547,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Physical Storage",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-294-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,4,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 547,
+              "bottom": 585,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--parent\">",
+            "nodeLabel": "Materials-Based Storage",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-295-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,4,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 585,
+              "bottom": 641,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 56
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Hydrogen Storage Engineering Center of Excellence",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-296-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,4,LI,1,DIV,1,UL,0,DIV,3,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 641,
+              "bottom": 679,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Hydrogen Storage Related Links",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-297-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 479,
+              "bottom": 544,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "Fuel Cells\nParts of a Fuel Cell\nFuel Cell Systems\nTypes of Fuel Cells\nFuel Cell…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-298-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 574,
+              "bottom": 612,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Parts of a Fuel Cell",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-299-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 612,
+              "bottom": 650,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Fuel Cell Systems",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-300-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 650,
+              "bottom": 688,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Types of Fuel Cells",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-301-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI,1,DIV,1,UL,0,DIV,3,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 688,
+              "bottom": 726,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Fuel Cells Related Links",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-302-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,6,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 544,
+              "bottom": 610,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Technology Validation",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-303-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,7,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 610,
+              "bottom": 675,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "Manufacturing\nManufacturing Related Links",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-304-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,7,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 705,
+              "bottom": 743,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Manufacturing Related Links",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-305-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,8,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 675,
+              "bottom": 740,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "Safety, Codes & Standards\nSafety, Codes and Standards Basics\nCurrent Approaches…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-306-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,8,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 770,
+              "bottom": 808,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first dropdown-item--par…\">",
+            "nodeLabel": "Safety, Codes and Standards Basics",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-307-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,8,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 808,
+              "bottom": 864,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 56
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--parent\">",
+            "nodeLabel": "Current Approaches to Safety, Codes & Standards",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-308-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,8,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 864,
+              "bottom": 902,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--parent\">",
+            "nodeLabel": "DOE Activities",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-309-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,9,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 740,
+              "bottom": 805,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "Education\nIncrease Your H2IQ\nFor Safety & Code Officials\nFor State & Local Gove…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-310-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,9,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 835,
+              "bottom": 873,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Increase Your H2IQ",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-311-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,9,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 873,
+              "bottom": 911,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "For Safety & Code Officials",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-312-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,9,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 911,
+              "bottom": 949,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "For State & Local Governments",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-313-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,9,LI,1,DIV,1,UL,0,DIV,3,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 949,
+              "bottom": 987,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "For Early Adopters",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-314-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,9,LI,1,DIV,1,UL,0,DIV,4,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 987,
+              "bottom": 1025,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--parent\">",
+            "nodeLabel": "For Students & Educators",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-315-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,9,LI,1,DIV,1,UL,0,DIV,5,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1025,
+              "bottom": 1063,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Careers in Hydrogen & Fuel Cells",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-316-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,10,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 805,
+              "bottom": 870,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "Market Transformation\nEarly Adoption of Fuel Cells\nEarly Market Applications fo…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-317-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,10,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 900,
+              "bottom": 938,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Early Adoption of Fuel Cells",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-318-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,10,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 938,
+              "bottom": 994,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 56
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Early Market Applications for Fuel Cells",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-319-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,10,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 994,
+              "bottom": 1032,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Financial Incentives",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-320-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,11,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 870,
+              "bottom": 935,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "Systems Analysis\nAnalysis Methodologies\nDOE H2A Analysis\nScenario Analysis",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-321-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,11,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 965,
+              "bottom": 1003,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first dropdown-item--par…\">",
+            "nodeLabel": "Analysis Methodologies",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-322-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,11,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1003,
+              "bottom": 1041,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "DOE H2A Analysis",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-323-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,11,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1041,
+              "bottom": 1079,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Scenario Analysis",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-324-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 935,
+              "bottom": 1000,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "Information Resources\nPublications\nProgram Publications\nTechnical Publications\n…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-325-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1030,
+              "bottom": 1068,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Publications",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-326-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1068,
+              "bottom": 1106,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--parent\">",
+            "nodeLabel": "Program Publications",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-327-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1106,
+              "bottom": 1144,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--parent\">",
+            "nodeLabel": "Technical Publications",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-328-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV,3,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1144,
+              "bottom": 1182,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Educational Publications",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-329-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV,4,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1182,
+              "bottom": 1220,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Newsletter",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-330-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV,5,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1220,
+              "bottom": 1258,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Program Presentations",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-331-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV,6,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1258,
+              "bottom": 1296,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Multimedia",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-332-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV,7,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1296,
+              "bottom": 1334,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--parent\">",
+            "nodeLabel": "Conferences & Meetings",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-333-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV,8,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1334,
+              "bottom": 1372,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Webinars",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-334-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV,9,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1372,
+              "bottom": 1410,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Data Records",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-335-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV,10,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1410,
+              "bottom": 1448,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Databases",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-336-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,12,LI,1,DIV,1,UL,0,DIV,11,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1448,
+              "bottom": 1486,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Glossary",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-337-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,13,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1000,
+              "bottom": 1066,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Funding Opportunities",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-338-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,14,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1066,
+              "bottom": 1132,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Hydrogen & Fuel Cell News",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-339-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,15,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1132,
+              "bottom": 1198,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Events",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-340-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,16,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 1198,
+              "bottom": 1264,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-341-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2234,
+              "bottom": 2259,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "EERE Home",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-342-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2259,
+              "bottom": 2284,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Publications Library",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-343-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2284,
+              "bottom": 2309,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Contact EERE",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-344-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2299,
+              "bottom": 2324,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Budget & Performance",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-345-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2324,
+              "bottom": 2349,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Covid-19 Response",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-346-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2349,
+              "bottom": 2374,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Directives, Delegations & Requirements",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-347-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2374,
+              "bottom": 2399,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "FOIA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-348-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2399,
+              "bottom": 2424,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Inspector General",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-349-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,5,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2424,
+              "bottom": 2449,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Privacy Program",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-350-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,6,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2449,
+              "bottom": 2474,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Small Business",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-351-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2364,
+              "bottom": 2389,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "The White House",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-352-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2389,
+              "bottom": 2414,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "USA.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-353-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2414,
+              "bottom": 2439,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Vote.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 85
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"visually-hidden focusable\" tabindex=\"1\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-10-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div#main-nav > div.navbar-office > div.office-title > a",
+            "boundingRect": {
+              "top": 18,
+              "bottom": 70,
+              "left": 102,
+              "right": 324,
+              "width": 222,
+              "height": 53
+            },
+            "snippet": "<a href=\"/eere\" aria-label=\"Office of Energy Efficiency &amp; Renewable Energy\" tabindex=\"1\">",
+            "nodeLabel": "Office of\nENERGY EFFICIENCY & RENEWABLE ENERGY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-269-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 81,
+              "bottom": 140,
+              "left": -618,
+              "right": -195,
+              "width": 423,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "ABOUT EERE",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-11-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 81,
+              "bottom": 140,
+              "left": -618,
+              "right": -245,
+              "width": 373,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/eere/about-office-energy-efficiency-and-renewable-energy\" tabindex=\"1\">",
+            "nodeLabel": "ABOUT EERE",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-270-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 200,
+              "bottom": 259,
+              "left": -618,
+              "right": -195,
+              "width": 423,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "RESOURCES",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-20-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 200,
+              "bottom": 259,
+              "left": -618,
+              "right": -245,
+              "width": 373,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/eere/resources\" tabindex=\"1\">",
+            "nodeLabel": "RESOURCES",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-271-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 259,
+              "bottom": 317,
+              "left": -618,
+              "right": -195,
+              "width": 423,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "BUILDINGS & INDUSTRY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-24-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,1,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 259,
+              "bottom": 317,
+              "left": -618,
+              "right": -245,
+              "width": 373,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/eere/energy-efficiency-buildings-and-industry\" tabindex=\"1\">",
+            "nodeLabel": "BUILDINGS & INDUSTRY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-272-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 317,
+              "bottom": 376,
+              "left": -618,
+              "right": -195,
+              "width": 423,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "RENEWABLE ENERGY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-28-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,2,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 317,
+              "bottom": 376,
+              "left": -618,
+              "right": -245,
+              "width": 373,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/eere/renewable-energy\" tabindex=\"1\">",
+            "nodeLabel": "RENEWABLE ENERGY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-273-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,3,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 376,
+              "bottom": 434,
+              "left": -618,
+              "right": -195,
+              "width": 423,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SUSTAINABLE TRANSPORTATION",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-33-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,3,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 376,
+              "bottom": 434,
+              "left": -618,
+              "right": -245,
+              "width": 373,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/eere/sustainable-transportation-and-fuels\" tabindex=\"1\">",
+            "nodeLabel": "SUSTAINABLE TRANSPORTATION",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 12
+  }
+]
