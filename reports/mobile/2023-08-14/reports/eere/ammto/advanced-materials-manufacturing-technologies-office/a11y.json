@@ -1,0 +1,1983 @@
+[
+  {
+    "id": "accesskeys",
+    "title": "`[accesskey]` values are unique",
+    "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more](https://web.dev/accesskeys/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-command-name",
+    "title": "`button`, `link`, and `menuitem` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-hidden-body",
+    "title": "`[aria-hidden=\"true\"]` is not present on the document `<body>`",
+    "description": "Assistive technologies, like screen readers, work inconsistently when `aria-hidden=\"true\"` is set on the document `<body>`. [Learn more](https://web.dev/aria-hidden-body/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements do not contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-meter-name",
+    "title": "ARIA `meter` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-progressbar-name",
+    "title": "ARIA `progressbar` elements have accessible names",
+    "description": "When a `progressbar` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-required-attr",
+    "title": "`[role]`s have all required `[aria-*]` attributes",
+    "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers. [Learn more](https://web.dev/aria-required-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` have all required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-roles",
+    "title": "`[role]` values are valid",
+    "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://web.dev/aria-roles/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-toggle-field-name",
+    "title": "ARIA toggle fields have accessible names",
+    "description": "When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-tooltip-name",
+    "title": "ARIA `tooltip` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-treeitem-name",
+    "title": "ARIA `treeitem` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-valid-attr",
+    "title": "`[aria-*]` attributes are valid and not misspelled",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names. [Learn more](https://web.dev/aria-valid-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "button-name",
+    "title": "Buttons have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "bypass",
+    "title": "The page contains a heading, skip link, or landmark region",
+    "description": "Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. [Learn more](https://web.dev/bypass/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-219-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,0,DIV,0,A,0,SPAN,0,SPAN",
+            "selector": "div.office-title > a > span.office-title-prefix > span.office-title-office",
+            "boundingRect": {
+              "top": 18,
+              "bottom": 33,
+              "left": 102,
+              "right": 134,
+              "width": 32,
+              "height": 15
+            },
+            "snippet": "<span class=\"office-title-office\">",
+            "nodeLabel": "Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-220-NAV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV",
+                  "selector": "div.overlay-body > div.layout-container > header > nav.navbar",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 157,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 157
+                  },
+                  "snippet": "<nav role=\"navigation\" aria-labelledby=\"main-nav\" class=\"navbar navbar--suboffice\">",
+                  "nodeLabel": "Office of\nENERGY EFFICIENCY & RENEWABLE ENERGY\nMain navigation\nADVANCED MATERIA…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-221-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,0,DIV,0,A,0,SPAN,1,SPAN",
+            "selector": "div.office-title > a > span.office-title-prefix > span.office-title-of",
+            "boundingRect": {
+              "top": 18,
+              "bottom": 33,
+              "left": 137,
+              "right": 147,
+              "width": 10,
+              "height": 15
+            },
+            "snippet": "<span class=\"office-title-of\">",
+            "nodeLabel": "of",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-220-NAV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV",
+                  "selector": "div.overlay-body > div.layout-container > header > nav.navbar",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 157,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 157
+                  },
+                  "snippet": "<nav role=\"navigation\" aria-labelledby=\"main-nav\" class=\"navbar navbar--suboffice\">",
+                  "nodeLabel": "Office of\nENERGY EFFICIENCY & RENEWABLE ENERGY\nMain navigation\nADVANCED MATERIA…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "dlitem",
+    "title": "Definition list items are wrapped in `<dl>` elements",
+    "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn more](https://web.dev/dlitem/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "document-title",
+    "title": "Document has a `<title>` element",
+    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more](https://web.dev/document-title/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "form-field-multiple-labels",
+    "title": "No form fields have multiple labels",
+    "description": "Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. [Learn more](https://web.dev/form-field-multiple-labels/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-222-H4",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,H4",
+            "selector": "div.navbar-overlay > div.navbar-inner > div.accordion > h4.nav-title",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 81,
+              "left": -618,
+              "right": -76,
+              "width": 542,
+              "height": 81
+            },
+            "snippet": "<h4 class=\"nav-title\">",
+            "nodeLabel": "ADVANCED MATERIALS & MANUFACTURING TECHNOLOGIES OFFICE HOME",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element has a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "html-lang-valid",
+    "title": "`<html>` element has a valid value for its `[lang]` attribute",
+    "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn more](https://web.dev/html-lang-valid/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "input-image-alt",
+    "title": "`<input type=\"image\">` elements have `[alt]` text",
+    "description": "When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn more](https://web.dev/input-image-alt/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "label",
+    "title": "Form elements have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "link-name",
+    "title": "Links have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-223-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL",
+            "selector": "div.nav--subnavigation > div.dropdown > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 88,
+              "bottom": 610,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 522
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--parent\">",
+            "nodeLabel": "ADVANCED MATERIALS & MANUFACTURING TECHNOLOGIES OFFICE\nAbout the Advanced Mater…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-224-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV",
+                  "selector": "div.dropdown > div.child-menu > ul.dropdown-menu > div.dropdown",
+                  "boundingRect": {
+                    "top": 88,
+                    "bottom": 610,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 522
+                  },
+                  "snippet": "<div class=\"dropdown dropdown--button dropdown--tree\">",
+                  "nodeLabel": "ADVANCED MATERIALS & MANUFACTURING TECHNOLOGIES OFFICE\nAbout the Advanced Mater…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-225-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL",
+            "selector": "ul.dropdown-menu > div.dropdown > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 88,
+              "bottom": 610,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 522
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--parent\">",
+            "nodeLabel": "ADVANCED MATERIALS & MANUFACTURING TECHNOLOGIES OFFICE\nAbout the Advanced Mater…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-226-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV",
+                  "selector": "div.dropdown > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 88,
+                    "bottom": 610,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 522
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "ADVANCED MATERIALS & MANUFACTURING TECHNOLOGIES OFFICE\nAbout the Advanced Mater…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-227-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 349,
+              "bottom": 561,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 212
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Contact Us\nMeet the Team\nPeer Reviews\nProject Database",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-228-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 379,
+                    "bottom": 531,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 152
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Contact Us\nMeet the Team\nPeer Reviews\nProject Database"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-229-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,2,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 349,
+              "bottom": 485,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 136
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Careers\nFellowships",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-230-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,2,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 379,
+                    "bottom": 455,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 76
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Careers\nFellowships"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-231-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 414,
+              "bottom": 664,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 250
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Past Funding Opportunities\nInstitutes & Hubs\nNational Laboratory Funding\nPrizes…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-232-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 444,
+                    "bottom": 634,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 190
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Past Funding Opportunities\nInstitutes & Hubs\nNational Laboratory Funding\nPrizes…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-233-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,4,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 479,
+              "bottom": 577,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 98
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Newsletters",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-234-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,4,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 509,
+                    "bottom": 547,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 38
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Newsletters"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-235-UL",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI,1,DIV,1,UL",
+            "selector": "div.menu > li.dropdown-item > div.child-menu > ul.dropdown-menu",
+            "boundingRect": {
+              "top": 544,
+              "bottom": 754,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 210
+            },
+            "snippet": "<ul class=\"dropdown-menu dropdown-menu--child\">",
+            "nodeLabel": "Next Generation Materials & Processes\nEnergy Technology Manufacturing and Workf…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-236-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI,1,DIV,1,UL,0,DIV",
+                  "selector": "li.dropdown-item > div.child-menu > ul.dropdown-menu > div.menu",
+                  "boundingRect": {
+                    "top": 574,
+                    "bottom": 724,
+                    "left": 60,
+                    "right": 352,
+                    "width": 292,
+                    "height": 150
+                  },
+                  "snippet": "<div class=\"menu\">",
+                  "nodeLabel": "Next Generation Materials & Processes\nEnergy Technology Manufacturing and Workf…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-237-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 81,
+              "bottom": 140,
+              "left": -618,
+              "right": -76,
+              "width": 542,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "ABOUT EERE",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-238-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 201,
+              "bottom": 260,
+              "left": -618,
+              "right": -76,
+              "width": 542,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "RESOURCES",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-239-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 319,
+              "left": -618,
+              "right": -76,
+              "width": 542,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "BUILDINGS & INDUSTRY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-240-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 319,
+              "bottom": 378,
+              "left": -618,
+              "right": -76,
+              "width": 542,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "RENEWABLE ENERGY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-241-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,3,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 378,
+              "bottom": 437,
+              "left": -618,
+              "right": -76,
+              "width": 542,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SUSTAINABLE TRANSPORTATION",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-242-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 88,
+              "bottom": 219,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 131
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--first dropdown-item--firstparent dropdown-ite…\">",
+            "nodeLabel": "ADVANCED MATERIALS & MANUFACTURING TECHNOLOGIES OFFICE",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-243-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 219,
+              "bottom": 284,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "About the Advanced Materials & Manufacturing Technologies Office (AMMTO)\nContac…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-244-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 379,
+              "bottom": 417,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-245-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 417,
+              "bottom": 455,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Meet the Team",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-246-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 455,
+              "bottom": 493,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Peer Reviews",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-247-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,1,LI,1,DIV,1,UL,0,DIV,3,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 493,
+              "bottom": 531,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Project Database",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-248-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 284,
+              "bottom": 349,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "AMMTO Careers & Fellowships\nCareers\nFellowships",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-249-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,2,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 379,
+              "bottom": 417,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Careers",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-250-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,2,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 417,
+              "bottom": 455,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Fellowships",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-251-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 349,
+              "bottom": 414,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "AMMTO Funding Opportunities\nPast Funding Opportunities\nInstitutes & Hubs\nNation…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-252-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 444,
+              "bottom": 482,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Past Funding Opportunities",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-253-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 482,
+              "bottom": 520,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Institutes & Hubs",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-254-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 520,
+              "bottom": 558,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "National Laboratory Funding",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-255-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV,3,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 558,
+              "bottom": 596,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Prizes and Challenges",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-256-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,3,LI,1,DIV,1,UL,0,DIV,4,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 596,
+              "bottom": 634,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "SBIR/STTR",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-257-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,4,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 414,
+              "bottom": 479,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "AMMTO News & Events\nNewsletters",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-258-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,4,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 509,
+              "bottom": 547,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Newsletters",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-259-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 479,
+              "bottom": 544,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 65
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent dropdown-item--parent\">",
+            "nodeLabel": "AMMTO Research Programs\nNext Generation Materials & Processes\nEnergy Technology…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-260-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI,1,DIV,1,UL,0,DIV,0,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 574,
+              "bottom": 630,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 56
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--first\">",
+            "nodeLabel": "Next Generation Materials & Processes",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-261-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI,1,DIV,1,UL,0,DIV,1,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 630,
+              "bottom": 686,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 56
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child\">",
+            "nodeLabel": "Energy Technology Manufacturing and Workforce",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-262-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,5,LI,1,DIV,1,UL,0,DIV,2,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 686,
+              "bottom": 724,
+              "left": 60,
+              "right": 352,
+              "width": 292,
+              "height": 38
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--child dropdown-item--parent\">",
+            "nodeLabel": "Secure and Sustainable Materials",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-263-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,DIV,0,DIV,1,UL,0,DIV,6,LI",
+            "selector": "div.child-menu > ul.dropdown-menu > div.menu > li.dropdown-item",
+            "boundingRect": {
+              "top": 544,
+              "bottom": 610,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 66
+            },
+            "snippet": "<li class=\"dropdown-item dropdown-item--grandparent\">",
+            "nodeLabel": "AMMTO Stakeholder Resources",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-264-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4026,
+              "bottom": 4051,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "EERE Home",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-265-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4051,
+              "bottom": 4076,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Publications Library",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-266-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4076,
+              "bottom": 4101,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Contact EERE",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-267-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4091,
+              "bottom": 4116,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Budget & Performance",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-268-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4116,
+              "bottom": 4141,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Covid-19 Response",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-269-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4141,
+              "bottom": 4166,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Directives, Delegations & Requirements",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-270-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4166,
+              "bottom": 4191,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "FOIA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-271-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4191,
+              "bottom": 4216,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Inspector General",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-272-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,5,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4216,
+              "bottom": 4241,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Privacy Program",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-273-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,6,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4241,
+              "bottom": 4266,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Small Business",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-274-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4156,
+              "bottom": 4181,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "The White House",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-275-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4181,
+              "bottom": 4206,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "USA.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-276-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 4206,
+              "bottom": 4231,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Vote.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 40
+  },
+  {
+    "id": "meta-refresh",
+    "title": "The document does not use `<meta http-equiv=\"refresh\">`",
+    "description": "Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. [Learn more](https://web.dev/meta-refresh/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "meta-viewport",
+    "title": "`[user-scalable=\"no\"]` is not used in the `<meta name=\"viewport\">` element and the `[maximum-scale]` attribute is not less than 5.",
+    "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "object-alt",
+    "title": "`<object>` elements have alternate text",
+    "description": "Screen readers cannot translate non-text content. Adding alternate text to `<object>` elements helps screen readers convey meaning to users. [Learn more](https://web.dev/object-alt/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"visually-hidden focusable\" tabindex=\"1\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-10-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div#main-nav > div.navbar-office > div.office-title > a",
+            "boundingRect": {
+              "top": 18,
+              "bottom": 71,
+              "left": 102,
+              "right": 324,
+              "width": 222,
+              "height": 53
+            },
+            "snippet": "<a href=\"/eere\" aria-label=\"Office of Energy Efficiency &amp; Renewable Energy\" tabindex=\"1\">",
+            "nodeLabel": "Office of\nENERGY EFFICIENCY & RENEWABLE ENERGY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-237-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 81,
+              "bottom": 140,
+              "left": -618,
+              "right": -76,
+              "width": 542,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "ABOUT EERE",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-11-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 81,
+              "bottom": 140,
+              "left": -618,
+              "right": -126,
+              "width": 492,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/eere/about-office-energy-efficiency-and-renewable-energy\" tabindex=\"1\">",
+            "nodeLabel": "ABOUT EERE",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-238-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 201,
+              "bottom": 260,
+              "left": -618,
+              "right": -76,
+              "width": 542,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "RESOURCES",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-20-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 201,
+              "bottom": 260,
+              "left": -618,
+              "right": -126,
+              "width": 492,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/eere/resources\" tabindex=\"1\">",
+            "nodeLabel": "RESOURCES",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-239-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 319,
+              "left": -618,
+              "right": -76,
+              "width": 542,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "BUILDINGS & INDUSTRY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-24-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,1,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 319,
+              "left": -618,
+              "right": -126,
+              "width": 492,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/eere/energy-efficiency-buildings-and-industry\" tabindex=\"1\">",
+            "nodeLabel": "BUILDINGS & INDUSTRY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-240-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 319,
+              "bottom": 378,
+              "left": -618,
+              "right": -76,
+              "width": 542,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "RENEWABLE ENERGY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-28-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,2,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 319,
+              "bottom": 378,
+              "left": -618,
+              "right": -126,
+              "width": 492,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/eere/renewable-energy\" tabindex=\"1\">",
+            "nodeLabel": "RENEWABLE ENERGY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-241-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,3,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 378,
+              "bottom": 437,
+              "left": -618,
+              "right": -76,
+              "width": 542,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SUSTAINABLE TRANSPORTATION",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-33-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,3,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 378,
+              "bottom": 437,
+              "left": -618,
+              "right": -126,
+              "width": 492,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/eere/sustainable-transportation-and-fuels\" tabindex=\"1\">",
+            "nodeLabel": "SUSTAINABLE TRANSPORTATION",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 12
+  },
+  {
+    "id": "td-headers-attr",
+    "title": "Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users. [Learn more](https://web.dev/td-headers-attr/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "th-has-data-cells",
+    "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` have data cells they describe.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users. [Learn more](https://web.dev/th-has-data-cells/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "valid-lang",
+    "title": "`[lang]` attributes have a valid value",
+    "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn more](https://web.dev/valid-lang/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "video-caption",
+    "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+    "description": "When a video provides a caption it is easier for deaf and hearing impaired users to access its information. [Learn more](https://web.dev/video-caption/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "logical-tab-order",
+    "title": "The page has a logical tab order",
+    "description": "Tabbing through the page follows the visual layout. Users cannot focus elements that are offscreen. [Learn more](https://web.dev/logical-tab-order/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "focusable-controls",
+    "title": "Interactive controls are keyboard focusable",
+    "description": "Custom interactive controls are keyboard focusable and display a focus indicator. [Learn more](https://web.dev/focusable-controls/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "interactive-element-affordance",
+    "title": "Interactive elements indicate their purpose and state",
+    "description": "Interactive elements, such as links and buttons, should indicate their state and be distinguishable from non-interactive elements. [Learn more](https://web.dev/interactive-element-affordance/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "managed-focus",
+    "title": "The user's focus is directed to new content added to the page",
+    "description": "If new content, such as a dialog, is added to the page, the user's focus is directed to it. [Learn more](https://web.dev/managed-focus/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "focus-traps",
+    "title": "User focus is not accidentally trapped in a region",
+    "description": "A user can tab into and out of any control or region without accidentally trapping their focus. [Learn more](https://web.dev/focus-traps/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "custom-controls-labels",
+    "title": "Custom controls have associated labels",
+    "description": "Custom interactive controls have associated labels, provided by aria-label or aria-labelledby. [Learn more](https://web.dev/custom-controls-labels/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "custom-controls-roles",
+    "title": "Custom controls have ARIA roles",
+    "description": "Custom interactive controls have appropriate ARIA roles. [Learn more](https://web.dev/custom-control-roles/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "visual-order-follows-dom",
+    "title": "Visual order on the page follows DOM order",
+    "description": "DOM order matches the visual order, improving navigation for assistive technology. [Learn more](https://web.dev/visual-order-follows-dom/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "offscreen-content-hidden",
+    "title": "Offscreen content is hidden from assistive technology",
+    "description": "Offscreen content is hidden with display: none or aria-hidden=true. [Learn more](https://web.dev/offscreen-content-hidden/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "use-landmarks",
+    "title": "HTML5 landmark elements are used to improve navigation",
+    "description": "Landmark elements (<main>, <nav>, etc.) are used to improve the keyboard navigation of the page for assistive technology. [Learn more](https://web.dev/use-landmarks/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  }
+]

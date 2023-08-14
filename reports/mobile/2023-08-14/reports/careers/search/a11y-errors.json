@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-50-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,0,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field > a",
+            "boundingRect": {
+              "top": 1081,
+              "bottom": 1096,
+              "left": 32,
+              "right": 84,
+              "width": 52,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.usajobs.gov:443/GetJob/ViewDetails/736997300\" aria-label=\"Lineman\">",
+            "nodeLabel": "Lineman",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-170-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,0,TR,0,TD",
+                  "selector": "table.cols-7 > tbody > tr > td.views-field",
+                  "boundingRect": {
+                    "top": 1063,
+                    "bottom": 1115,
+                    "left": 22,
+                    "right": 151,
+                    "width": 129,
+                    "height": 52
+                  },
+                  "snippet": "<td headers=\"view-title-1-table-column\" class=\"views-field views-field-title-1 views-align-left\">",
+                  "nodeLabel": "Lineman"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-52-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,2,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field > a",
+            "boundingRect": {
+              "top": 1182,
+              "bottom": 1211,
+              "left": 32,
+              "right": 93,
+              "width": 61,
+              "height": 29
+            },
+            "snippet": "<a href=\"https://www.usajobs.gov:443/GetJob/ViewDetails/697782200\" aria-label=\"Contract Specialist\">",
+            "nodeLabel": "Contract Specialist",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-171-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,2,TR,0,TD",
+                  "selector": "table.cols-7 > tbody > tr > td.views-field",
+                  "boundingRect": {
+                    "top": 1171,
+                    "bottom": 1223,
+                    "left": 22,
+                    "right": 151,
+                    "width": 129,
+                    "height": 52
+                  },
+                  "snippet": "<td headers=\"view-title-1-table-column\" class=\"views-field views-field-title-1 views-align-left\">",
+                  "nodeLabel": "Contract Specialist"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-54-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,4,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field > a",
+            "boundingRect": {
+              "top": 1297,
+              "bottom": 1312,
+              "left": 32,
+              "right": 134,
+              "width": 102,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.usajobs.gov:443/GetJob/ViewDetails/699715900\" aria-label=\"General Engineer\">",
+            "nodeLabel": "General Engineer",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-172-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,4,TR,0,TD",
+                  "selector": "table.cols-7 > tbody > tr > td.views-field",
+                  "boundingRect": {
+                    "top": 1279,
+                    "bottom": 1331,
+                    "left": 22,
+                    "right": 151,
+                    "width": 129,
+                    "height": 52
+                  },
+                  "snippet": "<td headers=\"view-title-1-table-column\" class=\"views-field views-field-title-1 views-align-left\">",
+                  "nodeLabel": "General Engineer"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-56-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,6,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field > a",
+            "boundingRect": {
+              "top": 1405,
+              "bottom": 1420,
+              "left": 32,
+              "right": 103,
+              "width": 71,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.usajobs.gov:443/GetJob/ViewDetails/700058600\" aria-label=\"Statistician\">",
+            "nodeLabel": "Statistician",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-173-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,6,TR,0,TD",
+                  "selector": "table.cols-7 > tbody > tr > td.views-field",
+                  "boundingRect": {
+                    "top": 1387,
+                    "bottom": 1439,
+                    "left": 22,
+                    "right": 151,
+                    "width": 129,
+                    "height": 52
+                  },
+                  "snippet": "<td headers=\"view-title-1-table-column\" class=\"views-field views-field-title-1 views-align-left\">",
+                  "nodeLabel": "Statistician"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-58-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,8,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field > a",
+            "boundingRect": {
+              "top": 1513,
+              "bottom": 1528,
+              "left": 32,
+              "right": 103,
+              "width": 71,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.usajobs.gov:443/GetJob/ViewDetails/700063700\" aria-label=\"Statistician\">",
+            "nodeLabel": "Statistician",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-174-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,8,TR,0,TD",
+                  "selector": "table.cols-7 > tbody > tr > td.views-field",
+                  "boundingRect": {
+                    "top": 1495,
+                    "bottom": 1547,
+                    "left": 22,
+                    "right": 151,
+                    "width": 129,
+                    "height": 52
+                  },
+                  "snippet": "<td headers=\"view-title-1-table-column\" class=\"views-field views-field-title-1 views-align-left\">",
+                  "nodeLabel": "Statistician"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-60-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,10,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field > a",
+            "boundingRect": {
+              "top": 1621,
+              "bottom": 1664,
+              "left": 32,
+              "right": 103,
+              "width": 71,
+              "height": 43
+            },
+            "snippet": "<a href=\"https://www.usajobs.gov:443/GetJob/ViewDetails/700073400\" aria-label=\"Information Technology (INFOSEC)\">",
+            "nodeLabel": "Information Technology (INFOSEC)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-175-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,10,TR,0,TD",
+                  "selector": "table.cols-7 > tbody > tr > td.views-field",
+                  "boundingRect": {
+                    "top": 1617,
+                    "bottom": 1669,
+                    "left": 22,
+                    "right": 151,
+                    "width": 129,
+                    "height": 52
+                  },
+                  "snippet": "<td headers=\"view-title-1-table-column\" class=\"views-field views-field-title-1 views-align-left\">",
+                  "nodeLabel": "Information Technology (INFOSEC)"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-62-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,12,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field > a",
+            "boundingRect": {
+              "top": 1743,
+              "bottom": 1758,
+              "left": 32,
+              "right": 96,
+              "width": 64,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.usajobs.gov:443/GetJob/ViewDetails/700077300\" aria-label=\"Economist\">",
+            "nodeLabel": "Economist",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-176-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,12,TR,0,TD",
+                  "selector": "table.cols-7 > tbody > tr > td.views-field",
+                  "boundingRect": {
+                    "top": 1725,
+                    "bottom": 1777,
+                    "left": 22,
+                    "right": 151,
+                    "width": 129,
+                    "height": 52
+                  },
+                  "snippet": "<td headers=\"view-title-1-table-column\" class=\"views-field views-field-title-1 views-align-left\">",
+                  "nodeLabel": "Economist"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-64-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,14,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field > a",
+            "boundingRect": {
+              "top": 1837,
+              "bottom": 1894,
+              "left": 32,
+              "right": 141,
+              "width": 109,
+              "height": 57
+            },
+            "snippet": "<a href=\"https://www.usajobs.gov:443/GetJob/ViewDetails/703824100\" aria-label=\"Interdisciplinary General Engineer/Physical Scientist\">",
+            "nodeLabel": "Interdisciplinary General Engineer/Physical Scientist",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-177-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,14,TR,0,TD",
+                  "selector": "table.cols-7 > tbody > tr > td.views-field",
+                  "boundingRect": {
+                    "top": 1833,
+                    "bottom": 1899,
+                    "left": 22,
+                    "right": 151,
+                    "width": 129,
+                    "height": 66
+                  },
+                  "snippet": "<td headers=\"view-title-1-table-column\" class=\"views-field views-field-title-1 views-align-left\">",
+                  "nodeLabel": "Interdisciplinary General Engineer/Physical Scientist"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-66-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,16,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field > a",
+            "boundingRect": {
+              "top": 1980,
+              "bottom": 2009,
+              "left": 32,
+              "right": 116,
+              "width": 84,
+              "height": 29
+            },
+            "snippet": "<a href=\"https://www.usajobs.gov:443/GetJob/ViewDetails/700075900\" aria-label=\"Mathematical Statistician\">",
+            "nodeLabel": "Mathematical Statistician",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-178-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,16,TR,0,TD",
+                  "selector": "table.cols-7 > tbody > tr > td.views-field",
+                  "boundingRect": {
+                    "top": 1969,
+                    "bottom": 2021,
+                    "left": 22,
+                    "right": 151,
+                    "width": 129,
+                    "height": 52
+                  },
+                  "snippet": "<td headers=\"view-title-1-table-column\" class=\"views-field views-field-title-1 views-align-left\">",
+                  "nodeLabel": "Mathematical Statistician"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-68-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,18,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field > a",
+            "boundingRect": {
+              "top": 2109,
+              "bottom": 2124,
+              "left": 32,
+              "right": 96,
+              "width": 64,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.usajobs.gov:443/GetJob/ViewDetails/700077500\" aria-label=\"Economist\">",
+            "nodeLabel": "Economist",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-179-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,TABLE,1,TBODY,18,TR,0,TD",
+                  "selector": "table.cols-7 > tbody > tr > td.views-field",
+                  "boundingRect": {
+                    "top": 2091,
+                    "bottom": 2143,
+                    "left": 22,
+                    "right": 151,
+                    "width": 129,
+                    "height": 52
+                  },
+                  "snippet": "<td headers=\"view-title-1-table-column\" class=\"views-field views-field-title-1 views-align-left\">",
+                  "nodeLabel": "Economist"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-180-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,NAV,1,UL,0,LI,0,SPAN,0,SPAN",
+            "selector": "ul.js-pager__items > li.pagination-item > span.button > span",
+            "boundingRect": {
+              "top": 2329,
+              "bottom": 2344,
+              "left": 51,
+              "right": 85,
+              "width": 34,
+              "height": 15
+            },
+            "snippet": "<span>",
+            "nodeLabel": "FIRST",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.63 (foreground color: #c8cbc8, background color: #ffffff, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-181-SPAN",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,NAV,1,UL,0,LI,0,SPAN",
+                  "selector": "nav.pagination-container > ul.js-pager__items > li.pagination-item > span.button",
+                  "boundingRect": {
+                    "top": 2307,
+                    "bottom": 2367,
+                    "left": 30,
+                    "right": 106,
+                    "width": 76,
+                    "height": 60
+                  },
+                  "snippet": "<span class=\"button disabled\" href=\"\" aria-label=\"First\">",
+                  "nodeLabel": "FIRST"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-182-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,NAV,1,UL,1,LI,0,SPAN,0,SPAN",
+            "selector": "ul.js-pager__items > li.pagination-item > span.button > span",
+            "boundingRect": {
+              "top": 2329,
+              "bottom": 2344,
+              "left": 146,
+              "right": 178,
+              "width": 32,
+              "height": 15
+            },
+            "snippet": "<span>",
+            "nodeLabel": "PREV",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.63 (foreground color: #c8cbc8, background color: #ffffff, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-SPAN",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,NAV,1,UL,1,LI,0,SPAN",
+                  "selector": "nav.pagination-container > ul.js-pager__items > li.pagination-item > span.button",
+                  "boundingRect": {
+                    "top": 2307,
+                    "bottom": 2367,
+                    "left": 125,
+                    "right": 199,
+                    "width": 74,
+                    "height": 60
+                  },
+                  "snippet": "<span class=\"button disabled\" href=\"\" aria-label=\"Previous\">",
+                  "nodeLabel": "PREV"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 12
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-184-H4",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,H4",
+            "selector": "div.footer-inner--left > div.footer-inner-block > div.accordion > h4.nav-title",
+            "boundingRect": {
+              "top": 2856,
+              "bottom": 2870,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 14
+            },
+            "snippet": "<h4 class=\"nav-title\">",
+            "nodeLabel": "ABOUT ENERGY.GOV",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-14-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div#main-nav > div.navbar-sitename > div.navbar-sitename-content > a",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 88,
+              "left": 40,
+              "right": 192,
+              "width": 152,
+              "height": 88
+            },
+            "snippet": "<a href=\"/\" tabindex=\"1\">",
+            "nodeLabel": "Energy.Gov logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-185-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 60,
+              "bottom": 138,
+              "left": -1057,
+              "right": -796,
+              "width": 262,
+              "height": 78
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SCIENCE & INNOVATION",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-186-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 138,
+              "bottom": 197,
+              "left": -1057,
+              "right": -796,
+              "width": 262,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "ENERGY ECONOMY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-187-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 256,
+              "left": -1057,
+              "right": -796,
+              "width": 262,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SECURITY & SAFETY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-188-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,3,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 256,
+              "bottom": 334,
+              "left": -1057,
+              "right": -796,
+              "width": 262,
+              "height": 78
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SAVE ENERGY, SAVE MONEY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-189-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2874,
+              "bottom": 2899,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "History",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-190-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2899,
+              "bottom": 2924,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "DOE STEM",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-191-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2924,
+              "bottom": 2949,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Careers",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-192-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,3,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2949,
+              "bottom": 2974,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-193-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2939,
+              "bottom": 2964,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Budget & Performance",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-194-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2964,
+              "bottom": 2989,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Covid-19 Response",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-195-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 2989,
+              "bottom": 3014,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Directives, Delegations & Requirements",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-196-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 3014,
+              "bottom": 3039,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "FOIA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-197-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 3039,
+              "bottom": 3064,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Inspector General",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-198-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,5,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 3064,
+              "bottom": 3089,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Privacy Program",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-199-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,6,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 3089,
+              "bottom": 3114,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Small Business",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-200-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 3004,
+              "bottom": 3029,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "The White House",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-201-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 3029,
+              "bottom": 3054,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "USA.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-202-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 3054,
+              "bottom": 3079,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Vote.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 18
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"visually-hidden focusable\" tabindex=\"1\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-14-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div#main-nav > div.navbar-sitename > div.navbar-sitename-content > a",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 88,
+              "left": 40,
+              "right": 192,
+              "width": 152,
+              "height": 88
+            },
+            "snippet": "<a href=\"/\" tabindex=\"1\">",
+            "nodeLabel": "Energy.Gov logo",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-185-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 60,
+              "bottom": 138,
+              "left": -1057,
+              "right": -796,
+              "width": 262,
+              "height": 78
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SCIENCE & INNOVATION",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-16-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 60,
+              "bottom": 138,
+              "left": -1057,
+              "right": -846,
+              "width": 212,
+              "height": 78
+            },
+            "snippet": "<a class=\"\" href=\"/science-innovation\" tabindex=\"1\">",
+            "nodeLabel": "SCIENCE & INNOVATION",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-186-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 138,
+              "bottom": 197,
+              "left": -1057,
+              "right": -796,
+              "width": 262,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "ENERGY ECONOMY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-24-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,1,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 138,
+              "bottom": 197,
+              "left": -1057,
+              "right": -846,
+              "width": 212,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/energy-economy\" tabindex=\"1\">",
+            "nodeLabel": "ENERGY ECONOMY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-187-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 256,
+              "left": -1057,
+              "right": -796,
+              "width": 262,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SECURITY & SAFETY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-29-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,2,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 256,
+              "left": -1057,
+              "right": -846,
+              "width": 212,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/national-security-safety\" tabindex=\"1\">",
+            "nodeLabel": "SECURITY & SAFETY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-188-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,3,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 256,
+              "bottom": 334,
+              "left": -1057,
+              "right": -796,
+              "width": 262,
+              "height": 78
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SAVE ENERGY, SAVE MONEY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-34-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,3,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a.icon",
+            "boundingRect": {
+              "top": 256,
+              "bottom": 334,
+              "left": -1057,
+              "right": -846,
+              "width": 212,
+              "height": 78
+            },
+            "snippet": "<a href=\"/save\" class=\"icon icon icon-energy-saver\" tabindex=\"1\">",
+            "nodeLabel": "SAVE ENERGY, SAVE MONEY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-163-BUTTON",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,BUTTON",
+            "selector": "nav.navbar > div#main-nav > div.navbar-suffix > button.btn",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 88,
+              "left": 232,
+              "right": 320,
+              "width": 88,
+              "height": 88
+            },
+            "snippet": "<button type=\"submit\" class=\"btn btn-outline-primary navbar-search-show navbar-suffix-button\" aria-label=\"submit\" tabindex=\"1\">",
+            "nodeLabel": "submit",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 11
+  }
+]
