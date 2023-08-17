@@ -1,0 +1,691 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-138-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,9,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,SPAN",
+            "selector": "div.calendar--upcoming-container > div.calendar--upcoming-event > div.calendar--upcoming-day > span.calendar--upcoming-month",
+            "boundingRect": {
+              "top": 6330,
+              "bottom": 6358,
+              "left": 20,
+              "right": 100,
+              "width": 80,
+              "height": 28
+            },
+            "snippet": "<span class=\"calendar--upcoming-month\">",
+            "nodeLabel": "SEP",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.68 (foreground color: #ffffff, background color: #18a9e2, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-139-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,9,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.calendar > div.calendar--upcoming-container > div.calendar--upcoming-event > div.calendar--upcoming-day",
+                  "boundingRect": {
+                    "top": 6325,
+                    "bottom": 6400,
+                    "left": 20,
+                    "right": 100,
+                    "width": 80,
+                    "height": 75
+                  },
+                  "snippet": "<div class=\"calendar--upcoming-day\">",
+                  "nodeLabel": "SEP\n06"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-140-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,9,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,SPAN",
+            "selector": "div.calendar--upcoming-container > div.calendar--upcoming-event > div.calendar--upcoming-day > span.calendar--upcoming-date",
+            "boundingRect": {
+              "top": 6358,
+              "bottom": 6386,
+              "left": 20,
+              "right": 100,
+              "width": 80,
+              "height": 28
+            },
+            "snippet": "<span class=\"calendar--upcoming-date\">",
+            "nodeLabel": "06",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.68 (foreground color: #ffffff, background color: #18a9e2, font size: 30.0pt (40px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-139-DIV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,9,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.calendar > div.calendar--upcoming-container > div.calendar--upcoming-event > div.calendar--upcoming-day",
+                  "boundingRect": {
+                    "top": 6325,
+                    "bottom": 6400,
+                    "left": 20,
+                    "right": 100,
+                    "width": 80,
+                    "height": 75
+                  },
+                  "snippet": "<div class=\"calendar--upcoming-day\">",
+                  "nodeLabel": "SEP\n06"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-141-H4",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,H4",
+            "selector": "div.footer-inner--left > div.footer-inner-block > div.accordion > h4.nav-title",
+            "boundingRect": {
+              "top": 6752,
+              "bottom": 6766,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 14
+            },
+            "snippet": "<h4 class=\"nav-title\">",
+            "nodeLabel": "ABOUT ENERGY.GOV",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-142-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.nav-item",
+            "boundingRect": {
+              "top": 60,
+              "bottom": 119,
+              "left": -618,
+              "right": -343,
+              "width": 275,
+              "height": 59
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "NEWS",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-143-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.nav-item",
+            "boundingRect": {
+              "top": 119,
+              "bottom": 197,
+              "left": -618,
+              "right": -343,
+              "width": 275,
+              "height": 78
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "FUNDING OPPORTUNITIES",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-144-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 275,
+              "left": -618,
+              "right": -343,
+              "width": 275,
+              "height": 78
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "DEMONSTRATION & DEPLOYMENT",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-145-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,3,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.nav-item",
+            "boundingRect": {
+              "top": 275,
+              "bottom": 334,
+              "left": -618,
+              "right": -343,
+              "width": 275,
+              "height": 59
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "WORK WITH US",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-146-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6770,
+              "bottom": 6795,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "History",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-147-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6795,
+              "bottom": 6820,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "DOE STEM",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-148-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6820,
+              "bottom": 6845,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Careers",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-149-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,3,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6845,
+              "bottom": 6870,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-150-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6835,
+              "bottom": 6860,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Budget & Performance",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-151-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6860,
+              "bottom": 6885,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Covid-19 Response",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-152-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6885,
+              "bottom": 6910,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Directives, Delegations & Requirements",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-153-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6910,
+              "bottom": 6935,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "FOIA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-154-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6935,
+              "bottom": 6960,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Inspector General",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-155-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,5,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6960,
+              "bottom": 6985,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Privacy Program",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-156-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,6,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6985,
+              "bottom": 7010,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Small Business",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-157-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6900,
+              "bottom": 6925,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "The White House",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-158-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6925,
+              "bottom": 6950,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "USA.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-159-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 6950,
+              "bottom": 6975,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Vote.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 18
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"visually-hidden focusable\" tabindex=\"1\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-12-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.nav-item > a.nav-link",
+            "boundingRect": {
+              "top": 60,
+              "bottom": 119,
+              "left": -618,
+              "right": -393,
+              "width": 225,
+              "height": 59
+            },
+            "snippet": "<a class=\"nav-link\" href=\"/infrastructure/listings/bipartisan-infrastructure-law-news\" tabindex=\"1\">",
+            "nodeLabel": "NEWS",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-13-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,1,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.nav-item > a.nav-link",
+            "boundingRect": {
+              "top": 119,
+              "bottom": 197,
+              "left": -618,
+              "right": -393,
+              "width": 225,
+              "height": 78
+            },
+            "snippet": "<a class=\"nav-link\" href=\"/infrastructure/clean-energy-infrastructure-program-and-funding-announceme…\" tabindex=\"1\">",
+            "nodeLabel": "FUNDING OPPORTUNITIES",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-144-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 275,
+              "left": -618,
+              "right": -343,
+              "width": 275,
+              "height": 78
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "DEMONSTRATION & DEPLOYMENT",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-14-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,2,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 275,
+              "left": -618,
+              "right": -393,
+              "width": 225,
+              "height": 78
+            },
+            "snippet": "<a class=\"\" href=\"/infrastructure/demonstration-deployment\" tabindex=\"1\">",
+            "nodeLabel": "DEMONSTRATION & DEPLOYMENT",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-23-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,3,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.nav-item > a.nav-link",
+            "boundingRect": {
+              "top": 275,
+              "bottom": 334,
+              "left": -618,
+              "right": -393,
+              "width": 225,
+              "height": 59
+            },
+            "snippet": "<a class=\"nav-link\" href=\"/CleanEnergyCorps\" tabindex=\"1\">",
+            "nodeLabel": "WORK WITH US",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

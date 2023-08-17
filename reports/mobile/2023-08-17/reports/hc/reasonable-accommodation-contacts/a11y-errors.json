@@ -1,0 +1,1279 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-137-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,0,DIV,0,A,0,SPAN,0,SPAN",
+            "selector": "div.office-title > a > span.office-title-prefix > span.office-title-office",
+            "boundingRect": {
+              "top": 18,
+              "bottom": 33,
+              "left": 102,
+              "right": 134,
+              "width": 32,
+              "height": 15
+            },
+            "snippet": "<span class=\"office-title-office\">",
+            "nodeLabel": "Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-138-NAV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV",
+                  "selector": "div.overlay-body > div.layout-container > header > nav.navbar",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 91,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 91
+                  },
+                  "snippet": "<nav role=\"navigation\" aria-labelledby=\"main-nav\" class=\"navbar navbar--suboffice\">",
+                  "nodeLabel": "Office of\nTHE CHIEF HUMAN CAPITAL OFFICER\nMain navigation\nOFFICE OF THE CHIEF H…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-139-SPAN",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,0,DIV,0,A,0,SPAN,1,SPAN",
+            "selector": "div.office-title > a > span.office-title-prefix > span.office-title-of",
+            "boundingRect": {
+              "top": 18,
+              "bottom": 33,
+              "left": 137,
+              "right": 147,
+              "width": 10,
+              "height": 15
+            },
+            "snippet": "<span class=\"office-title-of\">",
+            "nodeLabel": "of",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-138-NAV",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV",
+                  "selector": "div.overlay-body > div.layout-container > header > nav.navbar",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 91,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 91
+                  },
+                  "snippet": "<nav role=\"navigation\" aria-labelledby=\"main-nav\" class=\"navbar navbar--suboffice\">",
+                  "nodeLabel": "Office of\nTHE CHIEF HUMAN CAPITAL OFFICER\nMain navigation\nOFFICE OF THE CHIEF H…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-27-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,0,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 931,
+              "bottom": 946,
+              "left": 419,
+              "right": 579,
+              "width": 160,
+              "height": 15
+            },
+            "snippet": "<a href=\"mailto:erica.sterling@hc.doe.gov\" aria-label=\"erica.sterling@hc.doe.gov\">",
+            "nodeLabel": "erica.sterling@hc.doe.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-140-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,0,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 855,
+                    "bottom": 1024,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 169
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "erica.sterling@hc.doe.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-29-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,2,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1171,
+              "bottom": 1186,
+              "left": 419,
+              "right": 709,
+              "width": 290,
+              "height": 15
+            },
+            "snippet": "<a aria-label=\"Reasonable Accommodation OPLER Team Email\" href=\"mailto:ReasonableAccommodationOPLER@hq.doe.gov\">",
+            "nodeLabel": "ReasonableAccommodationOPLER@hq.doe.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-141-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,2,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1109,
+                    "bottom": 1250,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 141
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "ReasonableAccommodationOPLER@hq.doe.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-31-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,4,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1383,
+              "bottom": 1398,
+              "left": 419,
+              "right": 709,
+              "width": 290,
+              "height": 15
+            },
+            "snippet": "<a aria-label=\"Reasonable Accommodation OPLER Team Email\" href=\"mailto:ReasonableAccommodationOPLER@hq.doe.gov\">",
+            "nodeLabel": "ReasonableAccommodationOPLER@hq.doe.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-142-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,4,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1349,
+                    "bottom": 1434,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 85
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "ReasonableAccommodationOPLER@hq.doe.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-33-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,6,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 1553,
+              "bottom": 1568,
+              "left": 419,
+              "right": 709,
+              "width": 290,
+              "height": 15
+            },
+            "snippet": "<a aria-label=\"Reasonable Accommodation OPLER Team Email\" href=\"mailto:ReasonableAccommodationOPLER@hq.doe.gov\">",
+            "nodeLabel": "ReasonableAccommodationOPLER@hq.doe.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-143-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,6,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1519,
+                    "bottom": 1604,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 85
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "ReasonableAccommodationOPLER@hq.doe.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-35-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,8,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1779,
+              "bottom": 1794,
+              "left": 419,
+              "right": 709,
+              "width": 290,
+              "height": 15
+            },
+            "snippet": "<a aria-label=\"Reasonable Accommodation OPLER Team Email\" href=\"mailto:ReasonableAccommodationOPLER@hq.doe.gov\">",
+            "nodeLabel": "ReasonableAccommodationOPLER@hq.doe.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-144-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,8,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1703,
+                    "bottom": 1872,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 169
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "ReasonableAccommodationOPLER@hq.doe.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-37-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,10,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 1990,
+              "bottom": 2005,
+              "left": 419,
+              "right": 571,
+              "width": 152,
+              "height": 15
+            },
+            "snippet": "<a aria-label=\"mailto:jamie.exler@nrp.doe.gov\" href=\"mailto:jamie.exler@nrp.doe.gov\">",
+            "nodeLabel": "jamie.exler@nrp.doe.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-145-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,10,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1957,
+                    "bottom": 2130,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 173
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "jamie.exler@nrp.doe.gov \n\n \n\n \n\nedward.rose@nrp.doe.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-38-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,10,TR,3,TD,3,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 2080,
+              "bottom": 2095,
+              "left": 419,
+              "right": 578,
+              "width": 159,
+              "height": 15
+            },
+            "snippet": "<a aria-label=\"Read more about edward.rose@nrp.doe.gov\" href=\"mailto:edward.rose@nrp.doe.gov\">",
+            "nodeLabel": "edward.rose@nrp.doe.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-145-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,10,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1957,
+                    "bottom": 2130,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 173
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "jamie.exler@nrp.doe.gov \n\n \n\n \n\nedward.rose@nrp.doe.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-40-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,12,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2243,
+              "bottom": 2258,
+              "left": 419,
+              "right": 709,
+              "width": 290,
+              "height": 15
+            },
+            "snippet": "<a aria-label=\"Reasonable Accommodation OPLER Team Email\" href=\"mailto:ReasonableAccommodationOPLER@hq.doe.gov\">",
+            "nodeLabel": "ReasonableAccommodationOPLER@hq.doe.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-146-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,12,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 2201,
+                    "bottom": 2302,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 101
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "ReasonableAccommodationOPLER@hq.doe.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-42-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,14,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 2486,
+              "bottom": 2501,
+              "left": 419,
+              "right": 566,
+              "width": 147,
+              "height": 15
+            },
+            "snippet": "<a href=\"mailto:betty.poole@hq.doe.gov\" aria-label=\"betty.poole@hq.doe.gov\">",
+            "nodeLabel": "betty.poole@hq.doe.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-147-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,14,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 2453,
+                    "bottom": 2626,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 173
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "betty.poole@hq.doe.gov \n\n \n\n \n\nchristopher.wiggins@hq.doe.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-43-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,14,TR,3,TD,3,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 2576,
+              "bottom": 2591,
+              "left": 419,
+              "right": 621,
+              "width": 202,
+              "height": 15
+            },
+            "snippet": "<a href=\"mailto:christopher.wiggins@hq.doe.gov\" aria-label=\"christopher.wiggins@hq.doe.gov\">",
+            "nodeLabel": "christopher.wiggins@hq.doe.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-147-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,14,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 2453,
+                    "bottom": 2626,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 173
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "betty.poole@hq.doe.gov \n\n \n\n \n\nchristopher.wiggins@hq.doe.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-45-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,16,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2745,
+              "bottom": 2760,
+              "left": 419,
+              "right": 560,
+              "width": 141,
+              "height": 15
+            },
+            "snippet": "<a aria-label=\"Read more about cory.jenson@swpa.gov\" href=\"mailto:cory.jenson@swpa.gov\">",
+            "nodeLabel": "cory.jenson@swpa.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-148-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,16,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 2711,
+                    "bottom": 2796,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 85
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "cory.jenson@swpa.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-47-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,18,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2915,
+              "bottom": 2930,
+              "left": 419,
+              "right": 530,
+              "width": 111,
+              "height": 15
+            },
+            "snippet": "<a aria-label=\"Read more about sadler@wapa.gov\" href=\"mailto:sadler@wapa.gov\">",
+            "nodeLabel": "sadler@wapa.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-149-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,18,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 2881,
+                    "bottom": 2966,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 85
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "sadler@wapa.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-49-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,20,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 3085,
+              "bottom": 3100,
+              "left": 419,
+              "right": 523,
+              "width": 104,
+              "height": 15
+            },
+            "snippet": "<a aria-label=\"Read more about petty@wapa.gov\" href=\"mailto:petty@wapa.gov\">",
+            "nodeLabel": "petty@wapa.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-150-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,20,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3051,
+                    "bottom": 3136,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 85
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "petty@wapa.gov"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-51-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,22,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 3255,
+              "bottom": 3270,
+              "left": 419,
+              "right": 533,
+              "width": 114,
+              "height": 15
+            },
+            "snippet": "<a href=\"mailto:tharris@wapa.gov\" aria-label=\"tharris@wapa.gov\">",
+            "nodeLabel": "tharris@wapa.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-151-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,TABLE,1,TBODY,22,TR,3,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3221,
+                    "bottom": 3306,
+                    "left": 404,
+                    "right": 725,
+                    "width": 321,
+                    "height": 85
+                  },
+                  "snippet": "<td style=\"width: 302px;\">",
+                  "nodeLabel": "tharris@wapa.gov"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 16
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-152-H4",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,H4",
+            "selector": "div.navbar-overlay > div.navbar-inner > div.accordion > h4.nav-title",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 81,
+              "left": -1087,
+              "right": -687,
+              "width": 400,
+              "height": 81
+            },
+            "snippet": "<h4 class=\"nav-title\">",
+            "nodeLabel": "OFFICE OF THE CHIEF HUMAN CAPITAL OFFICER HOME",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-153-H4",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,H4",
+            "selector": "div.footer-inner--left > div.footer-inner-block > div.accordion > h4.nav-title",
+            "boundingRect": {
+              "top": 5298,
+              "bottom": 5326,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 28
+            },
+            "snippet": "<h4 class=\"nav-title\">",
+            "nodeLabel": "ABOUT OFFICE OF THE CHIEF HUMAN CAPITAL OFFICER",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-154-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.nav-item",
+            "boundingRect": {
+              "top": 81,
+              "bottom": 140,
+              "left": -1087,
+              "right": -687,
+              "width": 400,
+              "height": 59
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "ABOUT US",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-155-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 201,
+              "bottom": 260,
+              "left": -1087,
+              "right": -687,
+              "width": 400,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SERVICES",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-156-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 319,
+              "left": -1087,
+              "right": -687,
+              "width": 400,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "POLICY AND GUIDANCE",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-157-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.nav-item",
+            "boundingRect": {
+              "top": 319,
+              "bottom": 378,
+              "left": -1087,
+              "right": -687,
+              "width": 400,
+              "height": 59
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "MISSION",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-158-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5330,
+              "bottom": 5355,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Careers & Internships",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-159-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5395,
+              "bottom": 5420,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Budget & Performance",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-160-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5420,
+              "bottom": 5445,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Covid-19 Response",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-161-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5445,
+              "bottom": 5470,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Directives, Delegations & Requirements",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-162-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5470,
+              "bottom": 5495,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "FOIA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-163-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5495,
+              "bottom": 5520,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Inspector General",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-164-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,5,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5520,
+              "bottom": 5545,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Privacy Program",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-165-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,6,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5545,
+              "bottom": 5570,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Small Business",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-166-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5460,
+              "bottom": 5485,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "The White House",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-167-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5485,
+              "bottom": 5510,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "USA.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-168-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 5510,
+              "bottom": 5535,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Vote.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 15
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"visually-hidden focusable\" tabindex=\"1\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-10-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div#main-nav > div.navbar-office > div.office-title > a",
+            "boundingRect": {
+              "top": 18,
+              "bottom": 71,
+              "left": 102,
+              "right": 324,
+              "width": 222,
+              "height": 53
+            },
+            "snippet": "<a href=\"/hc\" aria-label=\"Office of the Chief Human Capital Officer\" tabindex=\"1\">",
+            "nodeLabel": "Office of\nTHE CHIEF HUMAN CAPITAL OFFICER",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-11-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.nav-item > a.nav-link",
+            "boundingRect": {
+              "top": 81,
+              "bottom": 140,
+              "left": -1087,
+              "right": -737,
+              "width": 350,
+              "height": 59
+            },
+            "snippet": "<a class=\"nav-link\" href=\"/hc/about-us\" tabindex=\"1\">",
+            "nodeLabel": "ABOUT US",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-155-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 201,
+              "bottom": 260,
+              "left": -1087,
+              "right": -687,
+              "width": 400,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SERVICES",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-13-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 201,
+              "bottom": 260,
+              "left": -1087,
+              "right": -737,
+              "width": 350,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/hc/benefits\" tabindex=\"1\">",
+            "nodeLabel": "SERVICES",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-156-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 319,
+              "left": -1087,
+              "right": -687,
+              "width": 400,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "POLICY AND GUIDANCE",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-20-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,1,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 260,
+              "bottom": 319,
+              "left": -1087,
+              "right": -737,
+              "width": 350,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/hc/hc-policy-and-guidance\" tabindex=\"1\">",
+            "nodeLabel": "POLICY AND GUIDANCE",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-24-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,NAV,2,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.nav-item > a.nav-link",
+            "boundingRect": {
+              "top": 319,
+              "bottom": 378,
+              "left": -1087,
+              "right": -737,
+              "width": 350,
+              "height": 59
+            },
+            "snippet": "<a class=\"nav-link\" href=\"/hc/hc-glance\" tabindex=\"1\">",
+            "nodeLabel": "MISSION",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 8
+  }
+]
