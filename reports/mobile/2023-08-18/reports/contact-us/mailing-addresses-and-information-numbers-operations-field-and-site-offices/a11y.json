@@ -1,0 +1,1915 @@
+[
+  {
+    "id": "accesskeys",
+    "title": "`[accesskey]` values are unique",
+    "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more](https://web.dev/accesskeys/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-command-name",
+    "title": "`button`, `link`, and `menuitem` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-hidden-body",
+    "title": "`[aria-hidden=\"true\"]` is not present on the document `<body>`",
+    "description": "Assistive technologies, like screen readers, work inconsistently when `aria-hidden=\"true\"` is set on the document `<body>`. [Learn more](https://web.dev/aria-hidden-body/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements do not contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-meter-name",
+    "title": "ARIA `meter` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-progressbar-name",
+    "title": "ARIA `progressbar` elements have accessible names",
+    "description": "When a `progressbar` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-required-attr",
+    "title": "`[role]`s have all required `[aria-*]` attributes",
+    "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers. [Learn more](https://web.dev/aria-required-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` have all required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-roles",
+    "title": "`[role]` values are valid",
+    "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://web.dev/aria-roles/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-toggle-field-name",
+    "title": "ARIA toggle fields have accessible names",
+    "description": "When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-tooltip-name",
+    "title": "ARIA `tooltip` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-treeitem-name",
+    "title": "ARIA `treeitem` elements have accessible names",
+    "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "aria-valid-attr",
+    "title": "`[aria-*]` attributes are valid and not misspelled",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names. [Learn more](https://web.dev/aria-valid-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "button-name",
+    "title": "Buttons have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "bypass",
+    "title": "The page contains a heading, skip link, or landmark region",
+    "description": "Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. [Learn more](https://web.dev/bypass/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-47-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,2,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 803,
+              "bottom": 818,
+              "left": 36,
+              "right": 168,
+              "width": 132,
+              "height": 15
+            },
+            "snippet": "<a href=\"http://www.anl.gov/index.html\" aria-label=\"Argonne Site Office(link is external)\">",
+            "nodeLabel": "Argonne Site Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,2,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 749,
+                    "bottom": 899,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 150
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nArgonne Site Office\n\n9800 S. Cass Avenue\n\nArgonne, I…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-49-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,4,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 1130,
+              "bottom": 1145,
+              "left": 36,
+              "right": 250,
+              "width": 214,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.bpa.gov/Pages/home.aspx\" aria-label=\"Bonneville Power Administration(link is external)\">",
+            "nodeLabel": "Bonneville Power Administration",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-184-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,4,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1076,
+                    "bottom": 1256,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 180
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nBonneville Power Administration\n\nP.O. Box 3621\n\n905 …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-51-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,6,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 1427,
+              "bottom": 1442,
+              "left": 36,
+              "right": 165,
+              "width": 129,
+              "height": 15
+            },
+            "snippet": "<a href=\"http://www.wipp.energy.gov/\" aria-label=\"Carlsbad Field Office\">",
+            "nodeLabel": "Carlsbad Field Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-185-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,6,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1376,
+                    "bottom": 1523,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 147
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nCarlsbad Field Office\n\n4021 National Parks Highway\n\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-53-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,8,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 1721,
+              "bottom": 1753,
+              "left": 36,
+              "right": 233,
+              "width": 197,
+              "height": 32
+            },
+            "snippet": "<a href=\"http://www.emcbc.doe.gov/\" aria-label=\"Environmental Management Consolidated Business Center(link is external)\">",
+            "nodeLabel": "Environmental Management Consolidated Business Center",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-186-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,8,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1670,
+                    "bottom": 1834,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 164
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nEnvironmental Management Consolidated Business Cente…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-55-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,10,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 2032,
+              "bottom": 2047,
+              "left": 36,
+              "right": 152,
+              "width": 116,
+              "height": 15
+            },
+            "snippet": "<a href=\"http://www.eere.energy.gov/golden/\" aria-label=\"Golden Field Office\">",
+            "nodeLabel": "Golden Field Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-187-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,10,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1981,
+                    "bottom": 2128,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 147
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nGolden Field Office\n\n15013 Denver West Parkway\n\nGold…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-57-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,12,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a.ext",
+            "boundingRect": {
+              "top": 2332,
+              "bottom": 2347,
+              "left": 36,
+              "right": 191,
+              "width": 155,
+              "height": 15
+            },
+            "snippet": "<a href=\"http://www51.honeywell.com/aero/kcp/\" aria-label=\"Kansas City Site Office\" class=\"ext\" data-extlink=\"\" rel=\"nofollow noreferrer\">",
+            "nodeLabel": "Kansas City Site Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-188-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,12,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 2278,
+                    "bottom": 2428,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 150
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nKansas City Site Office\n\n2000 East 95th Street\n\nKans…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-59-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,14,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 2670,
+              "bottom": 2685,
+              "left": 36,
+              "right": 172,
+              "width": 136,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://nnsa.energy.gov/fieldoffices/losalamos\" aria-label=\"Los Alamos Site Office\">",
+            "nodeLabel": "Los Alamos Site Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-189-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,14,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 2619,
+                    "bottom": 2766,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 147
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nLos Alamos Site Office\n\n3747 West Jemez Road\n\nLos Al…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-63-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,18,TR,0,TD,2,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 3413,
+              "bottom": 3428,
+              "left": 36,
+              "right": 164,
+              "width": 128,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://www.nnss.gov/pages/BottomFooter/Contact.html\" aria-label=\"Nevada Site Office(link is external)\">",
+            "nodeLabel": "Nevada Site Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-190-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,18,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3315,
+                    "bottom": 3509,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 194
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nNational Nuclear Security Administration\n\nNevada Sit…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-66-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,22,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 4112,
+              "bottom": 4127,
+              "left": 36,
+              "right": 152,
+              "width": 116,
+              "height": 15
+            },
+            "snippet": "<a href=\"http://www.oakridge.doe.gov/external/\" aria-label=\"Oak Ridge Office(link is external)\">",
+            "nodeLabel": "Oak Ridge Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-191-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,22,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 4058,
+                    "bottom": 4208,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 150
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nOak Ridge Office\n\nP.O. Box 2001\n\nOak Ridge, TN 37831"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-68-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,24,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 4409,
+              "bottom": 4441,
+              "left": 36,
+              "right": 239,
+              "width": 203,
+              "height": 32
+            },
+            "snippet": "<a href=\"http://www.osti.gov/\" aria-label=\"Office of Scientific and Technical Information(link is external)\">",
+            "nodeLabel": "Office of Scientific and Technical Information",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-192-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,24,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 4358,
+                    "bottom": 4522,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 164
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nOffice of Scientific and Technical Information\n\nP.O.…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-70-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,26,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 4726,
+              "bottom": 4741,
+              "left": 36,
+              "right": 160,
+              "width": 124,
+              "height": 15
+            },
+            "snippet": "<a href=\"http://www.doeal.gov/pxso/\" aria-label=\"Pantex Site Office(link is external)\">",
+            "nodeLabel": "Pantex Site Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-193-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,26,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 4672,
+                    "bottom": 4822,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 150
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nPantex Site Office\n\nP.O. Box 30030\n\nAmarillo, TX 791…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-72-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,28,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 5020,
+              "bottom": 5052,
+              "left": 36,
+              "right": 237,
+              "width": 201,
+              "height": 32
+            },
+            "snippet": "<a href=\"http://www.bpa.gov/corporate/contact/area_offices.cfm\" aria-label=\"Power Marketing Washington DC Office(link is external)\">",
+            "nodeLabel": "Power Marketing Washington DC Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-194-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,28,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 4969,
+                    "bottom": 5163,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 194
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nPower Marketing Washington DC Office\n\n1000 Independe…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-74-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,30,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 5364,
+              "bottom": 5379,
+              "left": 36,
+              "right": 216,
+              "width": 180,
+              "height": 15
+            },
+            "snippet": "<a href=\"http://www.hanford.gov/orp/\" aria-label=\"Richland Operations Office(link is external)\">",
+            "nodeLabel": "Richland Operations Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-195-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,30,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 5310,
+                    "bottom": 5490,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 180
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nRichland Operations Office\n\n825 Jadwin Ave.\n\nP.O. Bo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-76-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,32,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 5708,
+              "bottom": 5723,
+              "left": 36,
+              "right": 161,
+              "width": 125,
+              "height": 15
+            },
+            "snippet": "<a href=\"http://www.doeal.gov/sso/\" aria-label=\"Sandia Site Office(link is external)\">",
+            "nodeLabel": "Sandia Site Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-196-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,32,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 5654,
+                    "bottom": 5804,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 150
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nSandia Site Office\n\nP.O. Box 5400\n\nAlbuquerque, NM 8…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-78-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,34,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 6008,
+              "bottom": 6023,
+              "left": 36,
+              "right": 214,
+              "width": 178,
+              "height": 15
+            },
+            "snippet": "<a href=\"http://www.srs.gov/general/srs-home.html\" aria-label=\"Savannah River Site Office(link is external)\">",
+            "nodeLabel": "Savannah River Site Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-197-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,34,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 5954,
+                    "bottom": 6104,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 150
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nSavannah River Site Office\n\nRoad 1A\n\nAiken, SC 29801"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-81-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,36,TR,0,TD,4,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 6409,
+              "bottom": 6441,
+              "left": 36,
+              "right": 222,
+              "width": 186,
+              "height": 32
+            },
+            "snippet": "<a href=\"http://www.swpa.gov/contactus.aspx\" aria-label=\"Headquarters, Operations and Maintenance Offices(link is external)\">",
+            "nodeLabel": "Headquarters, Operations and Maintenance Offices",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-198-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,36,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6251,
+                    "bottom": 6462,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 211
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nSouthwestern Power Administration\n\nOne West Third St…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-83-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,38,TR,0,TD,1,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 6663,
+              "bottom": 6695,
+              "left": 36,
+              "right": 256,
+              "width": 220,
+              "height": 32
+            },
+            "snippet": "<a href=\"http://www.spr.doe.gov/\" aria-label=\"Strategic Petroleum Reserve Project Management Office(link is external)\">",
+            "nodeLabel": "Strategic Petroleum Reserve Project Management Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.2 (foreground color: #127ea8, background color: #f5f5f5, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-199-TD",
+                  "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,2,MAIN,1,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,ARTICLE,1,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,38,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 6612,
+                    "bottom": 6776,
+                    "left": 21,
+                    "right": 275,
+                    "width": 254,
+                    "height": 164
+                  },
+                  "snippet": "<td>",
+                  "nodeLabel": "U.S. Department of Energy\n\nStrategic Petroleum Reserve Project Management Offic…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 17
+  },
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "dlitem",
+    "title": "Definition list items are wrapped in `<dl>` elements",
+    "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn more](https://web.dev/dlitem/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "document-title",
+    "title": "Document has a `<title>` element",
+    "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more](https://web.dev/document-title/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "form-field-multiple-labels",
+    "title": "No form fields have multiple labels",
+    "description": "Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. [Learn more](https://web.dev/form-field-multiple-labels/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-200-H4",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,H4",
+            "selector": "div.footer-inner--left > div.footer-inner-block > div.accordion > h4.nav-title",
+            "boundingRect": {
+              "top": 7737,
+              "bottom": 7751,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 14
+            },
+            "snippet": "<h4 class=\"nav-title\">",
+            "nodeLabel": "ABOUT ENERGY.GOV",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element has a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "html-lang-valid",
+    "title": "`<html>` element has a valid value for its `[lang]` attribute",
+    "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn more](https://web.dev/html-lang-valid/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "input-image-alt",
+    "title": "`<input type=\"image\">` elements have `[alt]` text",
+    "description": "When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn more](https://web.dev/input-image-alt/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "label",
+    "title": "Form elements have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-14-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div#main-nav > div.navbar-sitename > div.navbar-sitename-content > a",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 88,
+              "left": 40,
+              "right": 192,
+              "width": 152,
+              "height": 88
+            },
+            "snippet": "<a href=\"/\" tabindex=\"1\">",
+            "nodeLabel": "Energy.Gov logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-201-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 60,
+              "bottom": 138,
+              "left": -618,
+              "right": -356,
+              "width": 262,
+              "height": 78
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SCIENCE & INNOVATION",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-202-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 138,
+              "bottom": 197,
+              "left": -618,
+              "right": -356,
+              "width": 262,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "ENERGY ECONOMY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-203-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 256,
+              "left": -618,
+              "right": -356,
+              "width": 262,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SECURITY & SAFETY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-204-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,3,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 256,
+              "bottom": 334,
+              "left": -618,
+              "right": -356,
+              "width": 262,
+              "height": 78
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SAVE ENERGY, SAVE MONEY",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-205-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7755,
+              "bottom": 7780,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "History",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-206-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7780,
+              "bottom": 7805,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "DOE STEM",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-207-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7805,
+              "bottom": 7830,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Careers",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-208-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,3,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7830,
+              "bottom": 7855,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Contact Us",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-209-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7820,
+              "bottom": 7845,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Budget & Performance",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-210-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7845,
+              "bottom": 7870,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Covid-19 Response",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-211-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7870,
+              "bottom": 7895,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Directives, Delegations & Requirements",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-212-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7895,
+              "bottom": 7920,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "FOIA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-213-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,4,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7920,
+              "bottom": 7945,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Inspector General",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-214-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,5,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7945,
+              "bottom": 7970,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Privacy Program",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-215-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,6,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7970,
+              "bottom": 7995,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Small Business",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-216-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7885,
+              "bottom": 7910,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "The White House",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-217-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7910,
+              "bottom": 7935,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "USA.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-218-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,FOOTER,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,LI",
+            "selector": "div.accordion > div.nav-inner > div.nav > li.nav-item",
+            "boundingRect": {
+              "top": 7935,
+              "bottom": 7960,
+              "left": 40,
+              "right": 332,
+              "width": 292,
+              "height": 25
+            },
+            "snippet": "<li class=\"nav-item\">",
+            "nodeLabel": "Vote.gov",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 18
+  },
+  {
+    "id": "meta-refresh",
+    "title": "The document does not use `<meta http-equiv=\"refresh\">`",
+    "description": "Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. [Learn more](https://web.dev/meta-refresh/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "meta-viewport",
+    "title": "`[user-scalable=\"no\"]` is not used in the `<meta name=\"viewport\">` element and the `[maximum-scale]` attribute is not less than 5.",
+    "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "object-alt",
+    "title": "`<object>` elements have alternate text",
+    "description": "Screen readers cannot translate non-text content. Adding alternate text to `<object>` elements helps screen readers convey meaning to users. [Learn more](https://web.dev/object-alt/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "1,HTML,1,BODY,0,A",
+            "selector": "body > a.visually-hidden",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"visually-hidden focusable\" tabindex=\"1\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-14-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div#main-nav > div.navbar-sitename > div.navbar-sitename-content > a",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 88,
+              "left": 40,
+              "right": 192,
+              "width": 152,
+              "height": 88
+            },
+            "snippet": "<a href=\"/\" tabindex=\"1\">",
+            "nodeLabel": "Energy.Gov logo",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-201-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 60,
+              "bottom": 138,
+              "left": -618,
+              "right": -356,
+              "width": 262,
+              "height": 78
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SCIENCE & INNOVATION",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-16-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,0,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 60,
+              "bottom": 138,
+              "left": -618,
+              "right": -406,
+              "width": 212,
+              "height": 78
+            },
+            "snippet": "<a class=\"\" href=\"/science-innovation\" tabindex=\"1\">",
+            "nodeLabel": "SCIENCE & INNOVATION",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-202-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,1,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 138,
+              "bottom": 197,
+              "left": -618,
+              "right": -356,
+              "width": 262,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "ENERGY ECONOMY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-24-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,1,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 138,
+              "bottom": 197,
+              "left": -618,
+              "right": -406,
+              "width": 212,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/energy-economy\" tabindex=\"1\">",
+            "nodeLabel": "ENERGY ECONOMY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-203-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,2,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 256,
+              "left": -618,
+              "right": -356,
+              "width": 262,
+              "height": 59
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SECURITY & SAFETY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-29-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,2,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 256,
+              "left": -618,
+              "right": -406,
+              "width": 212,
+              "height": 59
+            },
+            "snippet": "<a class=\"\" href=\"/national-security-safety\" tabindex=\"1\">",
+            "nodeLabel": "SECURITY & SAFETY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-204-LI",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,3,LI",
+            "selector": "div.accordion > div.nav-inner > nav.nav > li.dropdown",
+            "boundingRect": {
+              "top": 256,
+              "bottom": 334,
+              "left": -618,
+              "right": -356,
+              "width": 262,
+              "height": 78
+            },
+            "snippet": "<li class=\"dropdown dropdown--hover nav-item\" tabindex=\"2\">",
+            "nodeLabel": "SAVE ENERGY, SAVE MONEY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-34-A",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,NAV,3,LI,0,A",
+            "selector": "div.nav-inner > nav.nav > li.dropdown > a.icon",
+            "boundingRect": {
+              "top": 256,
+              "bottom": 334,
+              "left": -618,
+              "right": -406,
+              "width": 212,
+              "height": 78
+            },
+            "snippet": "<a href=\"/save\" class=\"icon icon icon-energy-saver\" tabindex=\"1\">",
+            "nodeLabel": "SAVE ENERGY, SAVE MONEY",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-181-BUTTON",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,HEADER,1,NAV,0,DIV,2,DIV,0,BUTTON",
+            "selector": "nav.navbar > div#main-nav > div.navbar-suffix > button.btn",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 88,
+              "left": 232,
+              "right": 320,
+              "width": 88,
+              "height": 88
+            },
+            "snippet": "<button type=\"submit\" class=\"btn btn-outline-primary navbar-search-show navbar-suffix-button\" aria-label=\"submit\" tabindex=\"1\">",
+            "nodeLabel": "submit",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 11
+  },
+  {
+    "id": "td-headers-attr",
+    "title": "Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users. [Learn more](https://web.dev/td-headers-attr/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "th-has-data-cells",
+    "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` have data cells they describe.",
+    "description": "Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users. [Learn more](https://web.dev/th-has-data-cells/).",
+    "score": 1,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [],
+      "items": []
+    }
+  },
+  {
+    "id": "valid-lang",
+    "title": "`[lang]` attributes have a valid value",
+    "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn more](https://web.dev/valid-lang/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "video-caption",
+    "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+    "description": "When a video provides a caption it is easier for deaf and hearing impaired users to access its information. [Learn more](https://web.dev/video-caption/).",
+    "score": null,
+    "scoreDisplayMode": "notApplicable"
+  },
+  {
+    "id": "logical-tab-order",
+    "title": "The page has a logical tab order",
+    "description": "Tabbing through the page follows the visual layout. Users cannot focus elements that are offscreen. [Learn more](https://web.dev/logical-tab-order/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "focusable-controls",
+    "title": "Interactive controls are keyboard focusable",
+    "description": "Custom interactive controls are keyboard focusable and display a focus indicator. [Learn more](https://web.dev/focusable-controls/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "interactive-element-affordance",
+    "title": "Interactive elements indicate their purpose and state",
+    "description": "Interactive elements, such as links and buttons, should indicate their state and be distinguishable from non-interactive elements. [Learn more](https://web.dev/interactive-element-affordance/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "managed-focus",
+    "title": "The user's focus is directed to new content added to the page",
+    "description": "If new content, such as a dialog, is added to the page, the user's focus is directed to it. [Learn more](https://web.dev/managed-focus/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "focus-traps",
+    "title": "User focus is not accidentally trapped in a region",
+    "description": "A user can tab into and out of any control or region without accidentally trapping their focus. [Learn more](https://web.dev/focus-traps/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "custom-controls-labels",
+    "title": "Custom controls have associated labels",
+    "description": "Custom interactive controls have associated labels, provided by aria-label or aria-labelledby. [Learn more](https://web.dev/custom-controls-labels/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "custom-controls-roles",
+    "title": "Custom controls have ARIA roles",
+    "description": "Custom interactive controls have appropriate ARIA roles. [Learn more](https://web.dev/custom-control-roles/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "visual-order-follows-dom",
+    "title": "Visual order on the page follows DOM order",
+    "description": "DOM order matches the visual order, improving navigation for assistive technology. [Learn more](https://web.dev/visual-order-follows-dom/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "offscreen-content-hidden",
+    "title": "Offscreen content is hidden from assistive technology",
+    "description": "Offscreen content is hidden with display: none or aria-hidden=true. [Learn more](https://web.dev/offscreen-content-hidden/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  },
+  {
+    "id": "use-landmarks",
+    "title": "HTML5 landmark elements are used to improve navigation",
+    "description": "Landmark elements (<main>, <nav>, etc.) are used to improve the keyboard navigation of the page for assistive technology. [Learn more](https://web.dev/use-landmarks/).",
+    "score": null,
+    "scoreDisplayMode": "manual"
+  }
+]
